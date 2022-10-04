@@ -1,0 +1,41 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Sanishells Clear Water.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Sanishells Clear Water.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\FMODUnity.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\ImGui.NET.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\ImGui.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Ionic.Zip.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\LibNoiseDotNet.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\ArabicSupport.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Unity.Timeline.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.pdb

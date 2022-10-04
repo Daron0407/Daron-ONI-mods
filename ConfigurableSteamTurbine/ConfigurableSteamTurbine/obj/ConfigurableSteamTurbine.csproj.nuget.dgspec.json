@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+        "projectName": "ConfigurableSteamTurbine",
+        "projectPath": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+        "packagesPath": "C:\\Users\\daron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "PLib": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "ilmerge": {
+              "target": "Package",
+              "version": "[3.0.29, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\NoRadMutants.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\NoRadMutants.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\obj\Debug\NoRadMutants.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\obj\Debug\NoRadMutants.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\obj\Debug\NoRadMutants.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\NoRadMutants\NoRadMutants\obj\Debug\NoRadMutants.pdb

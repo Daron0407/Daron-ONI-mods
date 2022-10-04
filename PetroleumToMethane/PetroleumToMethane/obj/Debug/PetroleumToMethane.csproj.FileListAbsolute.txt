@@ -1,0 +1,15 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\obj\Debug\PetroleumToMethane.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\obj\Debug\PetroleumToMethane.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\PetroleumToMethane.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\PetroleumToMethane.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\obj\Debug\PetroleumToMethane.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\obj\Debug\PetroleumToMethane.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\PetroleumToMethane\PetroleumToMethane\obj\Debug\PetroleumToMethane.pdb

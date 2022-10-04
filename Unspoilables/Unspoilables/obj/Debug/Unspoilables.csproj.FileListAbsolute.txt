@@ -1,0 +1,14 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\Unspoilables.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\Unspoilables.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.pdb

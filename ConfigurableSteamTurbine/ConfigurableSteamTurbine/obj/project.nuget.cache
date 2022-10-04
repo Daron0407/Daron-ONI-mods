@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6STcbs6AuQUPldOVWQFsSjMmv1JocNk4fXicj/m8hQAmwtgTIRTus93Ig2R4f5vMSLKjWqAgvxocB4cCKR49xQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daron\\.nuget\\packages\\ilmerge\\3.0.29\\ilmerge.3.0.29.nupkg.sha512",
+    "C:\\Users\\daron\\.nuget\\packages\\plib\\4.9.0\\plib.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\4K wire.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\4K wire.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\obj\Debug\4K wire.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\obj\Debug\4K wire.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\obj\Debug\4K wire.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\4K wire\4K wire\obj\Debug\4K wire.pdb

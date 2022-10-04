@@ -1,0 +1,30 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Steam Turbine Enhanced.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Steam Turbine Enhanced.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Steam Turbine Enhanced.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Steam Turbine Enhanced.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\Steam Turbine Enhanced\Steam Turbine Enhanced\obj\Debug\Steam Turbine Enhanced.pdb

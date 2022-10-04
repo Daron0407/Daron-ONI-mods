@@ -1,0 +1,15 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\No Puft Prince.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\No Puft Prince.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.pdb

@@ -1,0 +1,14 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\Cheap Filters.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\Cheap Filters.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\obj\Debug\Cheap Filters.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\obj\Debug\Cheap Filters.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\obj\Debug\Cheap Filters.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Cheap Filters\Cheap Filters\obj\Debug\Cheap Filters.pdb

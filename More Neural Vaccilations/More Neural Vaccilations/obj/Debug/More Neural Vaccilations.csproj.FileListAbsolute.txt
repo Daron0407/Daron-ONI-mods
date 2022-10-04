@@ -1,0 +1,15 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\More Neural Vaccilations.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\More Neural Vaccilations.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.pdb

@@ -1,0 +1,22 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.pdb

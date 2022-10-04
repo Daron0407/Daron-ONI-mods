@@ -1,0 +1,15 @@
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\ElementsRebalanced.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\ElementsRebalanced.pdb
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\0Harmony.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\UnityEngine.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csprojAssemblyReference.cache
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csproj.CoreCompileInputs.cache
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csproj.CopyComplete
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.dll
+C:\Users\daron\source\repos\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.pdb
