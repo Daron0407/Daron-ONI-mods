@@ -71,8 +71,8 @@ namespace StarMapRebalanced
                 var postfix = typeof(Methods).GetMethod(nameof(Methods.Postfix));
                 if (original != null)
                 {
-                    Debug.Log("[Starmap Rebalanced] : Succesfully Patched");
                     harmony_instance.Patch(original, new HarmonyMethod(prefix), new HarmonyMethod(postfix));
+                    Debug.Log("[Starmap Rebalanced] : Succesfully Patched");
                 }
                 else
                 {

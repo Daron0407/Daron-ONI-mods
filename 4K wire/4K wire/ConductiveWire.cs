@@ -8,11 +8,10 @@ class WirePatches
 
         static bool Prefix(Wire.WattageRating rating, ref float __result)
         {
-            // tweak conductive wire
             if (rating == Wire.WattageRating.Max2000)
             {
                 __result = 4000f;
-                return false; // skip the original implementation
+                return false; // skip the original
             }
             return true;
         }

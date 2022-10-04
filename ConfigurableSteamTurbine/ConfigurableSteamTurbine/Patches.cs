@@ -86,9 +86,6 @@ public class Config : SingletonOptions<Config>
 
 class STPatches
 {
-
-
-
 	[HarmonyPatch(typeof(SteamTurbineConfig2), nameof(SteamTurbineConfig2.DoPostConfigureComplete))]
 	class SteamTurbinePatch1
 	{

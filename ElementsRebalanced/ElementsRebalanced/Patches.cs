@@ -15,7 +15,6 @@ namespace ElementsRebalanced
             private static readonly float ThermiumHighTemp = 3888f;
             public static void Postfix(ElementLoader.ElementEntry entry, Element elem)
             {
-                Debug.Log("Making Coolant Better " + entry.elementId.ToString());
                 if (entry.elementId.ToString().Equals("SuperCoolant"))
                 {
                     elem.highTemp = SuperCoolantLiquidGasTemp;

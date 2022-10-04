@@ -10,6 +10,7 @@ namespace MinimumOutputTempRestored
         public static float Water_sieve_drop_size = 200f;
         public static float Desalinator_drop_size = 600f;
     }
+    
     //Sets minimum output temp, sets drop size, increases amount of polluted dirt
     [HarmonyPatch(typeof(WaterPurifierConfig), nameof(WaterPurifierConfig.ConfigureBuildingTemplate))]
     public class WaterSievePatch1

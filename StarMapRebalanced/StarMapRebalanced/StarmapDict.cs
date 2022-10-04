@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
 
+    //this is where you make changes
     internal class StarmapDict
     {
         public static Dictionary<string, Dictionary<SimHashes, float>> harvestablePOIs = new Dictionary<string, Dictionary<SimHashes, float>>() { };
