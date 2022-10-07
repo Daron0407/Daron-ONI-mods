@@ -13,3 +13,10 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\MinimumOutputTempRestored\Mini
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\MinimumOutputTempRestored.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\MinimumOutputTempRestored.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.pdb
