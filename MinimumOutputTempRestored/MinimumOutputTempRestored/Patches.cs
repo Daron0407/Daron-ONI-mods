@@ -1,5 +1,4 @@
 ﻿using HarmonyLib;
-using System;
 using UnityEngine;
 
 namespace MinimumOutputTempRestored
@@ -17,12 +16,12 @@ namespace MinimumOutputTempRestored
     {
         static void Postfix(GameObject go, Tag prefab_tag)
         {
-            ElementConverter elementConverter = go.GetComponent<ElementConverter>();
+            /*ElementConverter elementConverter = go.GetComponent<ElementConverter>();
             elementConverter.outputElements = new ElementConverter.OutputElement[2]
             {
                 new ElementConverter.OutputElement(5f, SimHashes.Water, 273.15f + Constants.Minimum_output_temp, storeOutput: true, diseaseWeight: 0.75f),
                 new ElementConverter.OutputElement(1.0f, SimHashes.ToxicSand, 0.0f, storeOutput: true, diseaseWeight: 0.25f)
-            };
+            };*/
             ElementDropper elementDropper = go.GetComponent<ElementDropper>();
             elementDropper.emitMass = Constants.Water_sieve_drop_size;
         }
@@ -42,7 +41,7 @@ namespace MinimumOutputTempRestored
     {
         static void Postfix(GameObject go, Tag prefab_tag)
         {
-            ElementConverter[] elementConverters = go.GetComponents<ElementConverter>();
+            /*ElementConverter[] elementConverters = go.GetComponents<ElementConverter>();
 
             ElementConverter elementConverter1 = elementConverters[0];
             elementConverter1.consumedElements = new ElementConverter.ConsumedElement[1]
@@ -63,7 +62,7 @@ namespace MinimumOutputTempRestored
             {
                 new ElementConverter.OutputElement(3.5f, SimHashes.Water, 273.15f + Constants.Minimum_output_temp, storeOutput: true, diseaseWeight: 0.75f),
                 new ElementConverter.OutputElement(1.5f, SimHashes.Salt, 0.0f, storeOutput: true, diseaseWeight: 0.25f)
-            };
+            };*/
 
             ElementDropper dropper = go.AddComponent<ElementDropper>();
             dropper.emitMass = Constants.Desalinator_drop_size;
