@@ -1,0 +1,17 @@
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Rocketry Tune Up.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Rocketry Tune Up.pdb
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\0Harmony.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\PLib.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\UnityEngine.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\obj\Debug\Rocketry Tune Up.csprojAssemblyReference.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\obj\Debug\Rocketry Tune Up.csproj.CoreCompileInputs.cache
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\obj\Debug\Rocketry Tune Up.csproj.CopyComplete
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\obj\Debug\Rocketry Tune Up.dll
+C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Rocketry Tune Up\Rocketry Tune Up\obj\Debug\Rocketry Tune Up.pdb
