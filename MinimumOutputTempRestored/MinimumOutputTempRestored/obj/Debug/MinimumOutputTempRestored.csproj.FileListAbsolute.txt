@@ -20,3 +20,12 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\Minimum
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CopyComplete
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\0Harmony.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.UI.dll
