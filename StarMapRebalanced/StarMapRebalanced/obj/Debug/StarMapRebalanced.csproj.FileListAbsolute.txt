@@ -28,3 +28,19 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\StarMapRebalanced\StarM
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods source\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\StarMapRebalanced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\StarMapRebalanced.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\0Harmony.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\UnityEngine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\StarMapRebalanced\StarMapRebalanced\obj\Debug\StarMapRebalanced.pdb

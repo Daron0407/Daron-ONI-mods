@@ -180,7 +180,7 @@
                 5f
               },
               {
-                SimHashes.FoolsGold,
+                SimHashes.MaficRock,
                 3f
               },
               {
@@ -210,12 +210,8 @@
             harvestablePOIs["HeliumCloud"] = new Dictionary<SimHashes, float>()
             {
                 {
-                    SimHashes.Ethanol,
-                    3f
-                },
-                {
-                    SimHashes.Graphite,
-                    1f
+                    SimHashes.Hydrogen,
+                    4f
                 },
                 {
                     SimHashes.Lime,
@@ -269,6 +265,10 @@
               {
                 SimHashes.BleachStone,
                 1f
+              },
+              {
+                SimHashes.Granite,
+                3f
               }
             };
             harvestablePOIs["FrozenOreField"] = new Dictionary<SimHashes, float>()
@@ -324,11 +324,11 @@
             harvestablePOIs["SwampyOreField"] = new Dictionary<SimHashes, float>()
             {
               {
-                SimHashes.Mud,
+                SimHashes.SedimentaryRock,
                 2f
               },
               {
-                SimHashes.ToxicSand,
+                SimHashes.ToxicMud,
                 6f
               },
               {
@@ -359,34 +359,38 @@
             {
               {
                 SimHashes.UraniumOre,
-                4f
+                1f
               },
               {
                 SimHashes.Fallout,
-                2f
+                4.5f
               },
               {
                 SimHashes.ChlorineGas,
-                2f
+                4.5f
               }
             };
             harvestablePOIs["RadioactiveAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.UraniumOre,
-                2f
+                1f
+              },
+              {
+                SimHashes.BleachStone,
+                2.5f
               },
               {
                 SimHashes.Sulfur,
-                2f
+                2.5f
               },
               {
                 SimHashes.Wolframite,
-                2f
+                1.5f
               },
               {
                 SimHashes.Lead,
-                2f
+                2.5f
               }
             };
             harvestablePOIs["OxygenRichAsteroidField"] = new Dictionary<SimHashes, float>()
