@@ -15,3 +15,12 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\ConfigurableSteamTurbine\Confi
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.pdb
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\Newtonsoft.Json.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\PLib.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\ConfigurableSteamTurbine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\ConfigurableSteamTurbine.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\PLib.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ConfigurableSteamTurbine\ConfigurableSteamTurbine\obj\Debug\ConfigurableSteamTurbine.pdb

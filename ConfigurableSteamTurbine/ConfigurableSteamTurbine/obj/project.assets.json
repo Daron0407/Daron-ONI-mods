@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "projectUniqueName": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "projectName": "ConfigurableSteamTurbine",
-      "projectPath": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "projectPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "packagesPath": "C:\\Users\\daron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daron\\Dysk Google\\workspace\\C Sharp\\Mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
+      "outputPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
