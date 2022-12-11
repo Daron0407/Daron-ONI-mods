@@ -17,6 +17,7 @@ namespace ConfigurableSteamTurbine
 			PUtil.InitLibrary();
 			new POptions().RegisterOptions(this, typeof(Config));
 			base.OnLoad(harmony);
+			LocString.CreateLocStringKeys(typeof(ConfigurableSteamTurbine.STRINGS.UI));
 		}
 	}
 

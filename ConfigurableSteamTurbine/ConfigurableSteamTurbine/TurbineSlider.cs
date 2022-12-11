@@ -59,7 +59,7 @@ namespace ConfigurableSteamTurbine
 
         public string GetSliderTooltip()
         {
-            return "Set Pumping Rate";
+            return "Set Output Temperature";
         }
 
         public string SliderTitleKey => KEY + ".TITLE";
@@ -99,20 +99,6 @@ namespace ConfigurableSteamTurbine
         {
             steamTurbine.outputElementTemperature = SLIDER + 273.15f;
             steamTurbine.maxBuildingTemperature = SLIDER + 273.15f + Config.Instance.tempDiff;
-        }
-    }
-    public class STRINGS
-    {
-        public static class UI
-        {
-            public static class UISIDESCREENS
-            {
-                public static class STEAMTURBINE2SLIDER
-                {
-                    public static LocString TITLE = "Output Temperature";
-                    public static LocString TOOLTIP = "TODO TOOLTIP";
-                }
-            }
         }
     }
 }
