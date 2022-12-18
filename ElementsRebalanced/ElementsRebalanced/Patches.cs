@@ -13,8 +13,10 @@ namespace ElementsRebalanced
         [HarmonyPatch(typeof(ElementLoader), "CopyEntryToElement")]
         public class Db_Initialize_Patch
         {
+
             public static void Postfix(ElementLoader.ElementEntry entry, Element elem)
             {
+                Debug.Log("[DARON]" + entry.elementId.ToString());
                 if (entry.elementId.ToString().Equals("SuperCoolant"))
                 {
                     elem.highTemp = 6000f;
@@ -36,6 +38,11 @@ namespace ElementsRebalanced
                     elem.highTemp = 4000f;
                     elem.thermalConductivity = 300f;
                 }
+                if (entry.elementId.ToString().Equals("Petroleum"))
+                {
+                    //elem.highTempTransitionTarget = (SimHashes)Hash.SDBMLower("Methane");
+                }
+
             }
         }
         [HarmonyPatch(typeof(LegacyModMain), "ConfigElements")]
