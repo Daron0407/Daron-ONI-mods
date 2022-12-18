@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    //this is where you make changes
+
     internal class StarmapDict
     {
         public static Dictionary<string, Dictionary<SimHashes, float>> harvestablePOIs = new Dictionary<string, Dictionary<SimHashes, float>>() { };
@@ -27,7 +27,7 @@
             harvestablePOIs["MetallicAsteroidField"] = new Dictionary<SimHashes, float>()
             {
                  {
-                    SimHashes.Iron,
+                    SimHashes.MoltenIron,
                     3f
                  },
                  {
@@ -100,7 +100,7 @@
                 3f
               },
               {
-                SimHashes.SolidOxygen,
+                SimHashes.LiquidOxygen,
                 0.5f
               }
             };
@@ -112,15 +112,11 @@
               },
               {
                   SimHashes.SedimentaryRock,
-                  3f
+                  4f
               },
               {
                   SimHashes.Fertilizer,
                   2f
-              },
-              {
-                  SimHashes.Resin,
-                  1f
               }
 
             };
@@ -139,7 +135,7 @@
                 1.5f
               },
               {
-                SimHashes.SolidMethane,
+                SimHashes.LiquidMethane,
                 0.5f
               }
             };
@@ -199,7 +195,7 @@
                 6f
               },
               {
-                SimHashes.Tungsten,
+                SimHashes.MoltenTungsten,
                 3f
               },
               {
@@ -230,26 +226,22 @@
               },
               {
                 SimHashes.CrudeOil,
-                1.5f
+                2f
               },
               {
                 SimHashes.SolidMethane,
                 1f
-              },
-              {
-                SimHashes.Isoresin,
-                0.5f
               }
             };
             harvestablePOIs["OxidizedAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Rust,
-                8f
+                6f
               },
               {
                 SimHashes.OxyRock,
-                2f
+                4f
               }
             };
             harvestablePOIs["SaltyAsteroidField"] = new Dictionary<SimHashes, float>()
@@ -313,10 +305,6 @@
                 2f
               },
               {
-                SimHashes.Resin,
-                2f
-              },
-              {
                 SimHashes.AluminumOre,
                 2f
               }
@@ -348,11 +336,11 @@
               },
               {
                 SimHashes.Cuprite,
-                1f
+                2f
               },
               {
                 SimHashes.Sand,
-                3f
+                2f
               }
             };
             harvestablePOIs["RadioactiveGasCloud"] = new Dictionary<SimHashes, float>()
