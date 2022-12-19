@@ -33,13 +33,11 @@ namespace MoreGenerators
                 SetupStrings();
                 ModUtil.AddBuildingToPlanScreen("Power", RefinedCarbonGenerator.Id);
                 ModUtil.AddBuildingToPlanScreen("Power", UraniumGenerator.Id);
-                //ModUtil.AddBuildingToPlanScreen(TabCategory, NaphthaGenerator.Id);
-                //ModUtil.AddBuildingToPlanScreen(TabCategory, EcoFriendlyMethaneGenerator.Id);
+                //ModUtil.AddBuildingToPlanScreen("Refinement", SourGasBoiler.Id);
 
                 InsertToTechTree("AdvancedPowerRegulation", RefinedCarbonGenerator.Id);
                 InsertToTechTree("RenewableEnergy", UraniumGenerator.Id);
-                //InsertToTechTree("Plastics", NaphthaGenerator.Id);
-                //InsertToTechTree("ImprovedCombustion", EcoFriendlyMethaneGenerator.Id);
+                //InsertToTechTree("Plastics", SourGasBoiler.Id);
             }
 
             private static void InsertToTechTree(string techId, string buildingId)
@@ -61,6 +59,9 @@ namespace MoreGenerators
                     RefinedCarbonGenerator.Effect);
                 SetString(UraniumGenerator.IdUpper, UraniumGenerator.Name,
                     UraniumGenerator.Description,
+                    UraniumGenerator.Effect);
+                SetString(SourGasBoiler.IdUpper, SourGasBoiler.Name,
+                    SourGasBoiler.Description,
                     UraniumGenerator.Effect);
             }
 

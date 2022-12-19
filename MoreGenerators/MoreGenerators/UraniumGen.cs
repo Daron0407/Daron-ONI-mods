@@ -71,8 +71,6 @@ namespace MoreGenerators
             buildingDef.AudioCategory = "HollowMetal";
             buildingDef.AudioSize = "large";
             
-            //buildingDef.OutputConduitType = ConduitType.Liquid;
-            //buildingDef.UtilityOutputOffset = UraniumCentrifugeConfig.outPipeOffset;
 
             buildingDef.LogicInputPorts = LogicOperationalController.CreateSingleInputPortList(new CellOffset(0, 0));
 
@@ -85,9 +83,9 @@ namespace MoreGenerators
         {
             go.GetComponent<KPrefabID>().AddTag(RoomConstraints.ConstraintTags.IndustrialMachinery);
 
-            var t = GameTagExtensions.Create(SimHashes.EnrichedUranium);
+            Tag t = GameTagExtensions.Create(SimHashes.EnrichedUranium);
 
-            var eg = go.AddOrGet<EnergyGenerator>();
+            EnergyGenerator eg = go.AddOrGet<EnergyGenerator>();
             eg.ignoreBatteryRefillPercent = true;
             eg.formula = new EnergyGenerator.Formula
             {
@@ -102,28 +100,29 @@ namespace MoreGenerators
             };
             eg.powerDistributionOrder = 9;
 
-            var st = go.AddOrGet<Storage>();
-            st.capacityKg = Capacity;
-            st.showInUI = true;
+            Storage storage = go.AddOrGet<Storage>();
+            storage.capacityKg = Capacity;
+            storage.showInUI = true;
 
-            var dropper = go.AddOrGet<ElementDropper>();
-            dropper.emitTag = GameTagExtensions.Create(SimHashes.DepletedUranium);
+            ElementDropper dropper = go.AddOrGet<ElementDropper>();
+            dropper.emitTag = SimHashes.DepletedUranium.CreateTag();
             dropper.emitMass = 1f;
-            dropper.emitOffset = new Vector3(0,0,0);
-
+            dropper.emitOffset = new Vector3(1f,2f,0f);
+            
             go.AddOrGet<LoopingSounds>();
             Prioritizable.AddRef(go);
 
-            var manualDeliveryKg = go.AddOrGet<ManualDeliveryKG>();
+            ManualDeliveryKG manualDeliveryKg = go.AddOrGet<ManualDeliveryKG>();
             manualDeliveryKg.allowPause = false;
-            manualDeliveryKg.SetStorage(st);
+            manualDeliveryKg.SetStorage(storage);
             manualDeliveryKg.RequestedItemTag = t;
-            manualDeliveryKg.capacity = st.capacityKg;
+            manualDeliveryKg.capacity = storage.capacityKg;
             manualDeliveryKg.refillMass = RefillCapacity;
             manualDeliveryKg.choreTypeIDHash = Db.Get().ChoreTypes.PowerFetch.IdHash;
 
             Tinkerable.MakePowerTinkerable(go);
         }
+
 
         public override void DoPostConfigurePreview(BuildingDef def, GameObject go) => RegisterPorts(go);
 
