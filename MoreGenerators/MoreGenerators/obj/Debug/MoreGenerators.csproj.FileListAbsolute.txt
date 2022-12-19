@@ -1,0 +1,16 @@
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\MoreGenerators.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\MoreGenerators.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\0Harmony.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\UnityEngine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\obj\Debug\MoreGenerators.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\obj\Debug\MoreGenerators.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\obj\Debug\MoreGenerators.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\obj\Debug\MoreGenerators.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MoreGenerators\MoreGenerators\obj\Debug\MoreGenerators.pdb
