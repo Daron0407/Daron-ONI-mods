@@ -12,3 +12,10 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\bin\Debug\Unspoilables.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\bin\Debug\Unspoilables.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Unspoilables\Unspoilables\obj\Debug\Unspoilables.pdb
