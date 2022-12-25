@@ -9,7 +9,7 @@
 
         public static void initialize()
         {
-            harvestablePOIs["CarbonAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_CarbonAsteroidField"] = new Dictionary<SimHashes, float>()
             {
                 {
                     SimHashes.RefinedCarbon,
@@ -24,7 +24,7 @@
                     5f
                 }
             };
-            harvestablePOIs["MetallicAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_MetallicAsteroidField"] = new Dictionary<SimHashes, float>()
             {
                  {
                     SimHashes.MoltenIron,
@@ -43,7 +43,7 @@
                     1f
                  }
             };
-            harvestablePOIs["SatelliteField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_SatelliteField"] = new Dictionary<SimHashes, float>()
             {
                   {
                     SimHashes.Steel,
@@ -62,7 +62,7 @@
                     1f
                   }
             };
-            harvestablePOIs["RockyAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_RockyAsteroidField"] = new Dictionary<SimHashes, float>()
             {
                 {
                   SimHashes.Fossil,
@@ -85,7 +85,7 @@
                   1f
                 }
             };
-            harvestablePOIs["InterstellarIceField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_InterstellarIceField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Ice,
@@ -104,7 +104,7 @@
                 0.5f
               }
             };
-            harvestablePOIs["OrganicMassField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_OrganicMassField"] = new Dictionary<SimHashes, float>()
             {
               {
                   SimHashes.SlimeMold,
@@ -120,7 +120,7 @@
               }
 
             };
-            harvestablePOIs["IceAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_IceAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Ice,
@@ -139,7 +139,7 @@
                 0.5f
               }
             };
-            harvestablePOIs["GasGiantCloud"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_GasGiantCloud"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Methane,
@@ -158,7 +158,7 @@
                 1f
               }
             };
-            harvestablePOIs["ChlorineCloud"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_ChlorineCloud"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Chlorine,
@@ -169,7 +169,7 @@
                 7.5f
               }
             };
-            harvestablePOIs["GildedAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_GildedAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Gold,
@@ -196,14 +196,18 @@
               },
               {
                 SimHashes.MoltenTungsten,
-                3f
+                2f
+              },
+              {
+                SimHashes.Carbon,
+                1f
               },
               {
                 SimHashes.Katairite,
                 1f
               }
             };
-            harvestablePOIs["HeliumCloud"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_HeliumCloud"] = new Dictionary<SimHashes, float>()
             {
                 {
                     SimHashes.Hydrogen,
@@ -218,7 +222,7 @@
                     5f
                 }
             };
-            harvestablePOIs["OilyAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_OilyAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.SolidPetroleum,
@@ -233,7 +237,7 @@
                 1f
               }
             };
-            harvestablePOIs["OxidizedAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_OxidizedAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Rust,
@@ -244,7 +248,7 @@
                 4f
               }
             };
-            harvestablePOIs["SaltyAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_SaltyAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.Salt,
@@ -294,7 +298,7 @@
                 1f
               }
             };
-            harvestablePOIs["ForestyOreField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_ForestyOreField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.IgneousRock,
@@ -309,7 +313,7 @@
                 2f
               }
             };
-            harvestablePOIs["SwampyOreField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_SwampyOreField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.SedimentaryRock,
@@ -324,7 +328,7 @@
                 2f
               }
             };
-            harvestablePOIs["SandyOreField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_SandyOreField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.SandStone,
@@ -343,7 +347,7 @@
                 2f
               }
             };
-            harvestablePOIs["RadioactiveGasCloud"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_RadioactiveGasCloud"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.UraniumOre,
@@ -362,26 +366,26 @@
             {
               {
                 SimHashes.UraniumOre,
-                1f
+                2f
               },
               {
                 SimHashes.BleachStone,
-                2.5f
+                2f
               },
               {
                 SimHashes.Sulfur,
                 2.5f
               },
               {
-                SimHashes.Wolframite,
-                1.5f
+                SimHashes.Rust,
+                2.5f
               },
               {
                 SimHashes.Lead,
-                2.5f
+                1f
               }
             };
-            harvestablePOIs["OxygenRichAsteroidField"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_OxygenRichAsteroidField"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.OxyRock,
@@ -400,7 +404,7 @@
                 1f
               }
             };
-            harvestablePOIs["InterstellarOcean"] = new Dictionary<SimHashes, float>()
+            harvestablePOIs["REMOVE_InterstellarOcean"] = new Dictionary<SimHashes, float>()
             {
               {
                 SimHashes.SaltWater,

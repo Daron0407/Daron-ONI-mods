@@ -16,27 +16,27 @@ namespace ElementsRebalanced
 
             public static void Postfix(ElementLoader.ElementEntry entry, Element elem)
             {
-                Debug.Log("[DARON]" + entry.elementId.ToString());
+                //Debug.Log("[DARON]" + entry.elementId.ToString());
                 if (entry.elementId.ToString().Equals("SuperCoolant"))
                 {
-                    elem.highTemp = 6000f;
-                    elem.thermalConductivity = 1000f;
+                    //elem.highTemp = 6000f;
+                    //elem.thermalConductivity = 1000f;
                 }
                 if (entry.elementId.ToString().Equals("SuperCoolantGas"))
                 {
-                    elem.lowTemp = 6000f;
+                    //elem.lowTemp = 6000f;
                 }
                 if (entry.elementId.ToString().Equals("ViscoGel"))
                 {
-                    elem.highTemp = 1000f;
-                    elem.lowTemp = 100f;
+                    //elem.highTemp = 1000f;
+                    //elem.lowTemp = 100f;
                     elem.thermalConductivity = 0.0001f;
                     elem.specificHeatCapacity = 6f;
                 }
                 if (entry.elementId.ToString().Equals("TempConductorSolid"))
                 {
-                    elem.highTemp = 4000f;
-                    elem.thermalConductivity = 300f;
+                    //elem.highTemp = 4000f;
+                    //elem.thermalConductivity = 300f;
                 }
                 if (entry.elementId.ToString().Equals("Petroleum"))
                 {
@@ -100,7 +100,7 @@ namespace ElementsRebalanced
                 modifyDecor(SimHashes.Ceramic, 1.0f);
 
                 modifyDecor(SimHashes.TempConductorSolid, 0.5f);
-                modifyOverheat(SimHashes.TempConductorSolid, 4000f);
+                //modifyOverheat(SimHashes.TempConductorSolid, 4000f);
 
                 modifyDecor(SimHashes.Glass, 1.0f);
             }
