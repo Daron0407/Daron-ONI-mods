@@ -13,3 +13,10 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More 
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\More Neural Vaccilations.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\bin\Debug\More Neural Vaccilations.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\More Neural Vaccilations\More Neural Vaccilations\obj\Debug\More Neural Vaccilations.pdb
