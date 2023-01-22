@@ -8,7 +8,7 @@ namespace StarMapRebalanced
 
     class Methods
     {
-        private static readonly float poiCapacityMultiplier = 10.0f;
+        private static readonly float poiCapacityMultiplier = 2.0f;
         private static bool patched = false;
         public static bool Prefix()
         {
