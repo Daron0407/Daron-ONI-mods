@@ -1,0 +1,16 @@
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\OilWellSizeReduced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\OilWellSizeReduced.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\0Harmony.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\UnityEngine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\obj\Debug\OilWellSizeReduced.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\obj\Debug\OilWellSizeReduced.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\obj\Debug\OilWellSizeReduced.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\obj\Debug\OilWellSizeReduced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\OilWellSizeReduced\OilWellSizeReduced\obj\Debug\OilWellSizeReduced.pdb
