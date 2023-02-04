@@ -1,0 +1,5 @@
+Pickled Meal and Grubfruit Preserve are now unable to spoil (similarly to Berry Sludge). 
+To compensate for this Berry Sludge is moved from tier 3 food to tier 4.
+Nosh Bean, Sleet Wheat Grain, Pincha Peppernut also unable to spoil.
+
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]

@@ -1,0 +1,9 @@
+[h1]No Puft Prince[/h1]
+Have you ever tried to build a puft farm but were quickly stoped by how complicated puft reproduction mechanics are?
+Fear no more as this mod removes puft prince and all it's weirdness from the game!
+
+[b]Changes:[/b]
+Every Puft variant starts with 80% chance of laying eggs of the same variant and 10% chance to lay either one of remaining two variants. (And 0% chance to lay prince puft egg)
+These rates don't change ever
+
+[b]This mod will not remove existing puft princes or change existing reproduction chances, but will affect every puft that will hatch afterwards[/b]

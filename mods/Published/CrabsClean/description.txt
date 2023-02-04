@@ -1,0 +1,5 @@
+[h1]Sanishells Clear Water[/h1]
+This mod causes Sanishells to convert 500g of Polluted Water per second into clean water.
+They destroy germs on other liquids as usual.
+
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]

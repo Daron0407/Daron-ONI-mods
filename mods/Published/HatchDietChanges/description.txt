@@ -1,0 +1,36 @@
+[h1]Hatch diet changes[/h1]
+This mod changes diets of Hatches
+
+[b]Hatch[/b]
+Added:
+Regolith (140 kg/cycle) -> Coal (70 kg/cycle)
+Salt (140 kg/cycle) -> Coal (70 kg/cycle)
+Copper (100 kg/cycle) -> Copper Ore (95 kg/cycle)
+Iron (100 kg/cycle) -> Iron Ore (95 kg/cycle)
+Gold (100 kg/cycle) -> Gold Amalgam (95 kg/cycle)
+Tungsten (100 kg/cycle) -> Wolframite (95 kg/cycle)
+Aluminum (100 kg/cycle) -> Aluminum Ore (95 kg/cycle)
+
+DLC Only: Cobalt (100 kg/cycle) -> Cobalt Ore (95 kg/cycle)
+DLC Only: Depleted Uranium (100 kg/cycle) -> Uranium Ore (95 kg/cycle)
+
+[b]Sage Hatch[/b]
+Added:
+Phosphorite (140 kg/cycle) -> Coal (140 kg/cycle)
+Sulfur (140 kg/cycle) -> Coal (140 kg/cycle)
+Salt (140 kg/cycle) -> Coal (140 kg/cycle)
+
+DLC Only: Mud (140 kg/cycle) -> Coal (140 kg/cycle)
+DLC Only: Polluted Mud (140 kg/cycle) -> Coal (140 kg/cycle)
+
+[b]Stone Hatch[/b]
+Removed Obsidian and Wolframite from diet
+Added:
+Glass (140 kg/cycle) -> Obsidian (70 kg/cycle)
+Abyssalite (140 kg/cycle) -> Wolframite (70 kg/cycle)
+Fossil (100 kg/cycle) -> Lime (25kg/cycle)
+
+[b]Smooth Hatch[/b]
+Added:
+Refined Carbon (100 kg/cycle) -> Diamond (75 kg/cycle)
+Rust (100 kg/cycle) -> Iron (75 kg/cycle)

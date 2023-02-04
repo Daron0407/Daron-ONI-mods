@@ -1,0 +1,2 @@
+Mutated plants no longer need radiation to grow.
+[B]You still need radiation to get mutated seeds[/B]

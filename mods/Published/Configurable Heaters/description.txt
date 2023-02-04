@@ -1,0 +1,13 @@
+[h1]Configurable Heaters[/h1]
+This mod adds configuration options for Space Heater and Liquid Tepedizer
+
+[img]https://i.imgur.com/xC5HrQ0.png[/img]
+
+[b]Setting Heating to negative number will cause them to cool gases/liquids untli set temperature is reached[/b]
+
+[img]https://i.imgur.com/IVYlCap.png[/img]
+[img]https://i.imgur.com/ZVmpm1T.png[/img]
+
+
+This mod is safe to use on existing saves and uninstalling this mod reverts all it's changes back to vanilla.
+This mod uses PeterHan library under [url=https://licenses.nuget.org/MIT]MIT license[/url]

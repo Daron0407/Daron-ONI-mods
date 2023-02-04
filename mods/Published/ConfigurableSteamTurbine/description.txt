@@ -1,0 +1,18 @@
+[h1]Configurable Steam Turbine[/h1]
+This mod adds multiple config options for steam turbine such as:
+[list]
+ [*] wattage production
+ [*] minimum steam temperature
+ [*] maximum steam temperature
+ [*] water output temperature
+ [*] self heating amount
+ [*] water to turbine heat conversion rate
+ [*] difference beetween output water temperature and "turbine too hot" treshold
+ [*] steam consumption/water production  rate
+[/list]
+
+Every steam turbine also gets a slider to control output temperature per turbine
+
+
+
+this mod uses PeterHan library under [url=https://licenses.nuget.org/MIT]MIT license[/url]
