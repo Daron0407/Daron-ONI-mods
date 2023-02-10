@@ -29,3 +29,11 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ElementsRebalanced\ElementsRebala
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csproj.CopyComplete
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\bin\Debug\ElementsRebalanced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\bin\Debug\ElementsRebalanced.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\ElementsRebalanced\ElementsRebalanced\obj\Debug\ElementsRebalanced.pdb
