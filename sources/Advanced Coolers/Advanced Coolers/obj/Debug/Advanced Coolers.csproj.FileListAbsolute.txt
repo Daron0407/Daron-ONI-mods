@@ -14,3 +14,11 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Advanced Coolers\Advanced Coolers
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CopyComplete
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Advanced Coolers.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Advanced Coolers.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.pdb

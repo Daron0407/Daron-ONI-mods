@@ -21,12 +21,20 @@ namespace AdvancedCoolers
 
         public override BuildingDef CreateBuildingDef()
         {
-            float[] tieR4 = CONSTRUCTION_MASS_KG.TIER4;
-            string[] allMetals = MATERIALS.ALL_METALS;
+            float[] tier = 
+            { 
+                CONSTRUCTION_MASS_KG.TIER4[0],
+                CONSTRUCTION_MASS_KG.TIER2[0]
+            };
+            string[] materials =
+            {
+                "RefinedMetal",
+                "Fullerene"
+            };
             EffectorValues none = NOISE_POLLUTION.NONE;
             EffectorValues tieR1 = BUILDINGS.DECOR.PENALTY.TIER1;
             EffectorValues noise = none;
-            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "boiler_kanim", 30, 30f, tieR4, allMetals, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
+            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "boiler_kanim", 30, 30f, tier, materials, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
             buildingDef.RequiresPowerInput = true;
             buildingDef.Floodable = false;
             buildingDef.EnergyConsumptionWhenActive = 960f;
