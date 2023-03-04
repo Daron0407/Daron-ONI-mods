@@ -20,7 +20,7 @@ worldPlacements:
   allowedRings:
     min: 5
     max: 5
-- world: expansion1::worlds/MarshyMoonlet # Isoresin renewable
+- world: worlds/MarshyMoonlet # Isoresin renewable
   buffer: 4
   allowedRings:
     min: 5
@@ -57,7 +57,8 @@ poiPlacements:
       
   - pois: # spawn all of these
       - HarvestableSpacePOI_SandyOreField # specific to a sandstone start asteroid!
-    numToSpawn: 1
+      - HarvestableSpacePOI_SwampyOreField
+    numToSpawn: 2
     allowedRings:
       min: 2
       max: 3
@@ -75,7 +76,7 @@ poiPlacements:
       - HarvestableSpacePOI_HeliumCloud
       - HarvestableSpacePOI_OilyAsteroidField
       - HarvestableSpacePOI_FrozenOreField
-    numToSpawn: 5
+    numToSpawn: 8
     allowedRings:
       min: 8
       max: 11
@@ -83,7 +84,7 @@ poiPlacements:
   - pois:  # spawn all of these
       - HarvestableSpacePOI_RadioactiveGasCloud
       - HarvestableSpacePOI_RadioactiveAsteroidField
-    numToSpawn: 2
+    numToSpawn: 3
     avoidClumping: true
     allowedRings:
       min: 10
@@ -96,11 +97,11 @@ poiPlacements:
       - HarvestableSpacePOI_ForestyOreField
       - HarvestableSpacePOI_SwampyOreField
       - HarvestableSpacePOI_OrganicMassField
-    numToSpawn: 6
+    numToSpawn: 10
     canSpawnDuplicates: true
     allowedRings:
       min: 5
-      max: 7
+      max: 8
       
   - pois:
       - HarvestableSpacePOI_CarbonAsteroidField
@@ -119,7 +120,7 @@ poiPlacements:
       - HarvestableSpacePOI_FrozenOreField
       - HarvestableSpacePOI_RadioactiveGasCloud
       - HarvestableSpacePOI_RadioactiveAsteroidField
-    numToSpawn: 20
+    numToSpawn: 25
     canSpawnDuplicates: true
     allowedRings:
       min: 6

@@ -5,8 +5,8 @@ asteroidIcon: asteroid_vanilla_sandstone_start_kanim
 
 worldTraitScale: 1.2 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:
-  X: 330
-  Y: 400
+  X: 300
+  Y: 390
 layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
 #                                in order to use this.
 
@@ -438,7 +438,7 @@ worldTemplateRules:
   - names:
     - geysers/generic
     listRule: TryOne
-    times: 3
+    times: 2
     ruleId: GenericGeysers
     allowDuplicates: true
     allowedCellsFilter:
