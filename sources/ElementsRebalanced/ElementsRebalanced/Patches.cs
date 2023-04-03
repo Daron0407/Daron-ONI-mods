@@ -89,7 +89,7 @@ namespace ElementsRebalanced
             {
                 modifyDecor(SimHashes.Cobalt, 0.5f);
                 
-                modifyDecor(SimHashes.Gold, 1.0f);
+                //modifyDecor(SimHashes.Gold, 1.0f);
 
                 modifyDecor(SimHashes.Cobaltite, 0.1f);
 

@@ -8,6 +8,7 @@ namespace MinimumOutputTempRestored
         public static float Minimum_output_temp = 0f;
         public static float Water_sieve_drop_size = 200f;
         public static float Desalinator_drop_size = 600f;
+        public static float PDirt_production = 0.2f;
     }
     
     //Sets minimum output temp, sets drop size, increases amount of polluted dirt
@@ -20,7 +21,7 @@ namespace MinimumOutputTempRestored
             elementConverter.outputElements = new ElementConverter.OutputElement[2]
             {
                 new ElementConverter.OutputElement(5f, SimHashes.Water, 273.15f + Constants.Minimum_output_temp, storeOutput: true, diseaseWeight: 0.75f),
-                new ElementConverter.OutputElement(1.0f, SimHashes.ToxicSand, 0.0f, storeOutput: true, diseaseWeight: 0.25f)
+                new ElementConverter.OutputElement(Constants.PDirt_production, SimHashes.ToxicSand, 0.0f, storeOutput: true, diseaseWeight: 0.25f)
             };
             ElementDropper elementDropper = go.GetComponent<ElementDropper>();
             elementDropper.emitMass = Constants.Water_sieve_drop_size;

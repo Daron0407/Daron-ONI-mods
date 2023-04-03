@@ -29,3 +29,11 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\Minimum
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.ImageConversionModule.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\MinimumOutputTempRestored.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\MinimumOutputTempRestored.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\MinimumOutputTempRestored\MinimumOutputTempRestored\obj\Debug\MinimumOutputTempRestored.pdb
