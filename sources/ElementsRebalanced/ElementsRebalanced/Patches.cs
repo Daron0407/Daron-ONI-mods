@@ -18,28 +18,28 @@ namespace ElementsRebalanced
             {
                 if (entry.elementId.ToString().Equals("SuperCoolant"))
                 {
-                    //elem.highTemp = 6000f;
-                    //elem.thermalConductivity = 1000f;
+                    elem.highTemp = 6000f;
+                    elem.thermalConductivity = 1000f;
                 }
                 if (entry.elementId.ToString().Equals("SuperCoolantGas"))
                 {
-                    //elem.lowTemp = 6000f;
+                    elem.lowTemp = 6000f;
                 }
                 if (entry.elementId.ToString().Equals("ViscoGel"))
                 {
-                    //elem.highTemp = 1000f;
-                    //elem.lowTemp = 100f;
+                    elem.highTemp = 1000f;
+                    elem.lowTemp = 100f;
                     elem.thermalConductivity = 0.0001f;
                     elem.specificHeatCapacity = 6f;
                 }
                 if (entry.elementId.ToString().Equals("TempConductorSolid"))
                 {
-                    //elem.highTemp = 4000f;
+                    elem.highTemp = 4000f;
                     //elem.thermalConductivity = 300f;
                 }
                 if (entry.elementId.ToString().Equals("Petroleum"))
                 {
-                    //elem.highTempTransitionTarget = (SimHashes)Hash.SDBMLower("Methane");
+                    elem.highTempTransitionTarget = (SimHashes)Hash.SDBMLower("Methane");
                 }
 
             }
@@ -89,7 +89,7 @@ namespace ElementsRebalanced
             {
                 modifyDecor(SimHashes.Cobalt, 0.5f);
                 
-                //modifyDecor(SimHashes.Gold, 1.0f);
+                modifyDecor(SimHashes.Gold, 1.0f);
 
                 modifyDecor(SimHashes.Cobaltite, 0.1f);
 
@@ -98,7 +98,7 @@ namespace ElementsRebalanced
 
                 modifyDecor(SimHashes.Ceramic, 1.0f);
 
-                //modifyDecor(SimHashes.TempConductorSolid, 0.5f);
+                modifyDecor(SimHashes.TempConductorSolid, 0.5f);
                 //modifyOverheat(SimHashes.TempConductorSolid, 5000f);
 
                 modifyDecor(SimHashes.Glass, 0.5f);
