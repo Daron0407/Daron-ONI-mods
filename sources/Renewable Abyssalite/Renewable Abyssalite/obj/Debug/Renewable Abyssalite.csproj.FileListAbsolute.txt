@@ -1,0 +1,16 @@
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Renewable Abyssalite.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Renewable Abyssalite.pdb
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\0Harmony.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Assembly-CSharp.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.UI.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csprojAssemblyReference.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.CoreCompileInputs.cache
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.CopyComplete
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.dll
+C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.pdb
