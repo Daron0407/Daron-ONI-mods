@@ -1,0 +1,17 @@
+[h1]Renewable Abyssalite[/h1]
+This mod adds renewable Abyssalite for Spaced Out! DLC
+
+[b]Stone Hatch[/b]
+Added:
+Tungsten (140 kg/cycle) -> Abyssalite (70 kg/cycle)
+
+[img]https://imgur.com/RNTCH04[/img]
+
+
+[b]Glimmering Asteroid Field[/b]
+Added 2% mass as Abyssalite.
+
+[img]https://imgur.com/QRd9gNt[/img]
+
+
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
