@@ -94,5 +94,10 @@ namespace AdvancedCoolers
         {
             minimumOperatingTemperature.minimumTemperature = SLIDER + 273.15f;
         }
+
+        string ISliderControl.GetSliderTooltip(int index)
+        {
+            return "Adjust target temperature";
+        }
     }
 }

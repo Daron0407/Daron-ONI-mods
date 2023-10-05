@@ -109,5 +109,10 @@ namespace Heaters_Expanded
                 spaceHeater.targetTemperature = globals.MAX_TEMP;
             }
         }
+
+        string ISliderControl.GetSliderTooltip(int index)
+        {
+            return "Adjust target temperature";
+        }
     }
 }
