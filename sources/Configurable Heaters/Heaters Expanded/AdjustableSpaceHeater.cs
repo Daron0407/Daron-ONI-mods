@@ -7,7 +7,7 @@ namespace Heaters_Expanded
     {
 
         public const float SLIDER_MAX = 1000f;
-        public const float SLIDER_MIN = -200f;
+        public const float SLIDER_MIN = -265f;
 
         private static readonly EventSystem.IntraObjectHandler<AdjustableSpaceHeater> OnCopySettingsDelegate = new EventSystem.IntraObjectHandler<AdjustableSpaceHeater>(OnCopySettings);
 

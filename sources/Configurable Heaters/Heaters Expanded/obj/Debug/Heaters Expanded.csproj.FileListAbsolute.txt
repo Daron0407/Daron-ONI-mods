@@ -63,3 +63,19 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heat
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.ImageConversionModule.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.UI.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Heaters Expanded.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Heaters Expanded.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\bin\Debug\UnityEngine.UI.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Configurable Heaters\Heaters Expanded\obj\Debug\Heaters Expanded.pdb
