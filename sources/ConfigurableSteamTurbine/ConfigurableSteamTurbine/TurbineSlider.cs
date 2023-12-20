@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using KSerialization;
+﻿using KSerialization;
 
 namespace ConfigurableSteamTurbine
 {
@@ -99,6 +94,11 @@ namespace ConfigurableSteamTurbine
         {
             steamTurbine.outputElementTemperature = SLIDER + 273.15f;
             steamTurbine.maxBuildingTemperature = SLIDER + 273.15f + Config.Instance.tempDiff;
+        }
+
+        public string GetSliderTooltip(int index)
+        {
+            return "Tooltip";
         }
     }
 }

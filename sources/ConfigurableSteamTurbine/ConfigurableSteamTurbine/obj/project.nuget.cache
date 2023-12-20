@@ -1,11 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "eTouUW/9InAsp9yFIAdmyvCp0pXMIWfRrVCIOL8tbVTOX4sZou59V0GBtwJ2MOLk+Pzq8FaBzT7kGvJ576Rhlg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\daron\\.nuget\\packages\\ilmerge\\3.0.29\\ilmerge.3.0.29.nupkg.sha512",
-    "C:\\Users\\daron\\.nuget\\packages\\plib\\4.9.0\\plib.4.9.0.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "X+OslqTqiyyGB7p8wFjKligEo05iAeqHy8AEynBonWgrhZgG6VqQdiulP7v3Fs9eL5tEuLBs13sdZ1tDTzKSSg==",
+  "success": false,
+  "projectFilePath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu ilmerge. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "ilmerge",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1",
+        ".NETFramework,Version=v4.7.1/win",
+        ".NETFramework,Version=v4.7.1/win-arm64",
+        ".NETFramework,Version=v4.7.1/win-x64",
+        ".NETFramework,Version=v4.7.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu PLib. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "PLib",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1",
+        ".NETFramework,Version=v4.7.1/win",
+        ".NETFramework,Version=v4.7.1/win-arm64",
+        ".NETFramework,Version=v4.7.1/win-x64",
+        ".NETFramework,Version=v4.7.1/win-x86"
+      ]
+    }
+  ]
 }

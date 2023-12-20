@@ -1,11 +1,8 @@
 ﻿using HarmonyLib;
 using UnityEngine;
-using PeterHan.PLib.UI;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Options;
 using KMod;
-using System;
-using Newtonsoft.Json;
 
 
 namespace ConfigurableSteamTurbine
@@ -40,7 +37,6 @@ namespace ConfigurableSteamTurbine
 				ST.idealSourceElementTemperature = 273.15f + Config.Instance.maxActiveTempC;
 				ST.maxSelfHeat = Config.Instance.maxSelfHeat;
 				ST.wasteHeatToTurbinePercent = Config.Instance.steamHeatConvert;
-				//ST.maxBuildingTemperature = 273.15f + Config.Instance.maxBuildingTemperatureC;
 				ST.pumpKGRate = Config.Instance.PumpKGRate;
 
 				go.AddOrGet<TurbineSlider>();

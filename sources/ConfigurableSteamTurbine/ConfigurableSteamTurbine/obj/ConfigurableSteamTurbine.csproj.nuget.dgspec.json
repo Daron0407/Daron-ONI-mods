@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {}
+    "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {
+    "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+        "projectUniqueName": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
         "projectName": "ConfigurableSteamTurbine",
-        "projectPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+        "projectPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
         "packagesPath": "C:\\Users\\daron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
+        "outputPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -26,8 +26,7 @@
           "net471"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net471": {
@@ -51,6 +50,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

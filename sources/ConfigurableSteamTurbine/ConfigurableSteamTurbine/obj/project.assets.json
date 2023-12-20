@@ -1,119 +1,13 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.1": {
-      "ILMerge/3.0.29": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "PLib/4.9.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Runtime.InteropServices.RuntimeInformation"
-        ],
-        "compile": {
-          "lib/net471/PLib.dll": {}
-        },
-        "runtime": {
-          "lib/net471/PLib.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.1/win": {
-      "ILMerge/3.0.29": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "PLib/4.9.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Runtime.InteropServices.RuntimeInformation"
-        ],
-        "compile": {
-          "lib/net471/PLib.dll": {}
-        },
-        "runtime": {
-          "lib/net471/PLib.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.1/win-x64": {
-      "ILMerge/3.0.29": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "PLib/4.9.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Runtime.InteropServices.RuntimeInformation"
-        ],
-        "compile": {
-          "lib/net471/PLib.dll": {}
-        },
-        "runtime": {
-          "lib/net471/PLib.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.1/win-x86": {
-      "ILMerge/3.0.29": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.props": {}
-        }
-      },
-      "PLib/4.9.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Runtime.InteropServices.RuntimeInformation"
-        ],
-        "compile": {
-          "lib/net471/PLib.dll": {}
-        },
-        "runtime": {
-          "lib/net471/PLib.dll": {}
-        }
-      }
-    }
+    ".NETFramework,Version=v4.7.1": {},
+    ".NETFramework,Version=v4.7.1/win": {},
+    ".NETFramework,Version=v4.7.1/win-arm64": {},
+    ".NETFramework,Version=v4.7.1/win-x64": {},
+    ".NETFramework,Version=v4.7.1/win-x86": {}
   },
-  "libraries": {
-    "ILMerge/3.0.29": {
-      "sha512": "+LXIFY4L84Ve3cVgmd8tOEwFCppJynP0gY2cTmyj/8XjFaQPqaiN6jdYOrIJwtzYw3ayf69IY5vor6XXRxoigA==",
-      "type": "package",
-      "path": "ilmerge/3.0.29",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/ILMerge.props",
-        "docs/ilmerge-manual.md",
-        "ilmerge.3.0.29.nupkg.sha512",
-        "ilmerge.nuspec",
-        "tools/net452/ILMerge.exe",
-        "tools/net452/System.Compiler.dll"
-      ]
-    },
-    "PLib/4.9.0": {
-      "sha512": "HhWtQ6PT6dWL8kRYGlt0VI+CZ1onTjlPmP5wFMs3ksZHJe0Z/0n0lLXIxKptq1UqF1zE8t8fpkMl6flud7G6cg==",
-      "type": "package",
-      "path": "plib/4.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net471/PLib.dll",
-        "lib/net471/PLib.xml",
-        "plib.4.9.0.nupkg.sha512",
-        "plib.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.1": [
       "PLib >= 4.9.0",
@@ -127,11 +21,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "projectUniqueName": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "projectName": "ConfigurableSteamTurbine",
-      "projectPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "projectPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "packagesPath": "C:\\Users\\daron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daron\\Documents\\GitHub\\Daron-ONI-mods\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
+      "outputPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -146,8 +40,7 @@
         "net471"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net471": {
@@ -173,6 +66,9 @@
       "win": {
         "#import": []
       },
+      "win-arm64": {
+        "#import": []
+      },
       "win-x64": {
         "#import": []
       },
@@ -180,5 +76,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu ilmerge. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "ilmerge",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1",
+        ".NETFramework,Version=v4.7.1/win",
+        ".NETFramework,Version=v4.7.1/win-arm64",
+        ".NETFramework,Version=v4.7.1/win-x64",
+        ".NETFramework,Version=v4.7.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu PLib. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "PLib",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.1",
+        ".NETFramework,Version=v4.7.1/win",
+        ".NETFramework,Version=v4.7.1/win-arm64",
+        ".NETFramework,Version=v4.7.1/win-x64",
+        ".NETFramework,Version=v4.7.1/win-x86"
+      ]
+    }
+  ]
 }
