@@ -52,7 +52,7 @@ namespace ConfigurableSteamTurbine
             return KEY + ".TOOLTIP";
         }
 
-        public string GetSliderTooltip()
+        public string GetSliderTooltip(int index)
         {
             return "Set Output Temperature";
         }
@@ -94,11 +94,6 @@ namespace ConfigurableSteamTurbine
         {
             steamTurbine.outputElementTemperature = SLIDER + 273.15f;
             steamTurbine.maxBuildingTemperature = SLIDER + 273.15f + Config.Instance.tempDiff;
-        }
-
-        public string GetSliderTooltip(int index)
-        {
-            return "Tooltip";
         }
     }
 }
