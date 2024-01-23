@@ -30,3 +30,11 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.ImageConversionModule.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.UI.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Advanced Coolers.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Advanced Coolers.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.pdb

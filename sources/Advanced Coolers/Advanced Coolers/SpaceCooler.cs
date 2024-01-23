@@ -35,7 +35,7 @@ namespace AdvancedCoolers
             EffectorValues tieR2 = NOISE_POLLUTION.NOISY.TIER2;
             EffectorValues tieR1 = BUILDINGS.DECOR.BONUS.TIER1;
             EffectorValues noise = tieR2;
-            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spaceheater_kanim", 30, 30f, tier, materials, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
+            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spacecooler_kanim", 30, 30f, tier, materials, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
             buildingDef.RequiresPowerInput = true;
             buildingDef.EnergyConsumptionWhenActive = 60f;
             buildingDef.ExhaustKilowattsWhenActive = 0f;
