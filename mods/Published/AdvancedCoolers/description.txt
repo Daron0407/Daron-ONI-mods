@@ -1,0 +1,18 @@
+[h1]Advanced Heaters[/h1]
+This mod adds cooling counterparts for space heaters and liquid tepedizers
+[img]https://i.imgur.com/07NR5U7.png[/img]
+Range: -265C <-> 100C
+
+[img]https://i.imgur.com/OTTkC1A.png[/img]
+Space Cooler: Built with 400 kg refined metal and 50 kg fullerene
+
+[img]https://i.imgur.com/qpEIzKX.png[/img]
+Liquid Cooler: Built with 400 kg refined metal and 100 kg fullerene
+
+
+This mod provides lag friendly way to cool your base.
+Coolers need fullerene to be built so you're not unlocking any possibilities earlier, they're just another option.
+
+This mod is safe to use on existing saves.
+Deconstruct all built coolers before uninstalling this mod.
+This mod falls under [url=https://licenses.nuget.org/MIT]MIT license[/url]

@@ -6,8 +6,8 @@ namespace AdvancedCoolers
     public class AdjustableSlider : KMonoBehaviour, ISingleSliderControl, ISliderControl
     {
 
-        public const float SLIDER_MAX = 2000f;
-        public const float SLIDER_MIN = -250f;
+        public const float SLIDER_MAX = 100f;
+        public const float SLIDER_MIN = -265f;
 
         private static readonly EventSystem.IntraObjectHandler<AdjustableSlider> OnCopySettingsDelegate = new EventSystem.IntraObjectHandler<AdjustableSlider>(OnCopySettings);
 
