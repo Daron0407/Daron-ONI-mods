@@ -13,6 +13,7 @@ This mod adds multiple config options for steam turbine such as:
 
 Every steam turbine also gets a slider to control output temperature per turbine
 
+This mod is safe to use on existing saves and uninstalling this mod reverts all it's changes back to vanilla.
 
-
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
 this mod uses PeterHan library under [url=https://licenses.nuget.org/MIT]MIT license[/url]
