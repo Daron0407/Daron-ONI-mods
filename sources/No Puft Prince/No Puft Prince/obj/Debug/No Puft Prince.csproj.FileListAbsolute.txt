@@ -13,3 +13,10 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Mods\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\bin\Debug\No Puft Prince.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\bin\Debug\No Puft Prince.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\No Puft Prince\No Puft Prince\obj\Debug\No Puft Prince.pdb
