@@ -14,12 +14,19 @@ namespace EndlessStarmapMining
     {
         [JsonProperty]
         [Option("Mass Multiplier", "mass multiplier")]
-        [Limit(1, 10000)]
-        public int multiplier { get; set; }
+        [Limit(1, 1000)]
+        public int Massmultiplier { get; set; }
+
+        [JsonProperty]
+        [Option("Drillcone Storage Multiplier", "drillcone storage multiplier")]
+        [Limit(1, 100)]
+        public int drillconeMultiplier { get; set; }
+
 
         public Config()
         {
-            multiplier = 10;
+            Massmultiplier = 10;
+            drillconeMultiplier = 2;
         }
 
     }

@@ -7,17 +7,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace EndlessStarmapMining
 {
-    class Patch : UserMod2
+    class StarmapPatch : UserMod2
     {
         public override void OnLoad(Harmony harmony)
         {
             PUtil.InitLibrary();
             new POptions().RegisterOptions(this, typeof(Config));
             base.OnLoad(harmony);
-            StarmapPatch.harmony_instance = harmony;
+            StarmapPatchInternal.harmony_instance = harmony;
         }
 
         class Methods
@@ -39,15 +40,15 @@ namespace EndlessStarmapMining
                 foreach (HarvestablePOIConfig.HarvestablePOIParams harvestable in __result)
                 {
                     string id = harvestable.poiType.id;
-                    harvestable.poiType.poiCapacityMin *= (float)Config.Instance.multiplier;
-                    harvestable.poiType.poiCapacityMax *= (float)Config.Instance.multiplier;
+                    harvestable.poiType.poiCapacityMin *= (float)Config.Instance.Massmultiplier;
+                    harvestable.poiType.poiCapacityMax *= (float)Config.Instance.Massmultiplier;
                 }
             }
         }
 
 
         [HarmonyPatch(typeof(AutoMinerConfig), nameof(AutoMinerConfig.CreateBuildingDef))]
-        class StarmapPatch
+        class StarmapPatchInternal
         {
             public static Harmony harmony_instance;
             private static bool patched = false;
@@ -73,6 +74,20 @@ namespace EndlessStarmapMining
                 return true;
             }
 
+        }
+
+        [HarmonyPatch(typeof(NoseconeHarvestConfig), nameof(NoseconeHarvestConfig.ConfigureBuildingTemplate))]
+        class NoseconeHarvestConfigPatch
+        {
+            public static void Postfix(ref GameObject go, ref Tag prefab_tag)
+            {
+                Storage storage = go.GetComponent<Storage>();
+                storage.capacityKg = 1000f * Config.Instance.drillconeMultiplier;
+                ManualDeliveryKG manualDeliveryKg = go.GetComponent<ManualDeliveryKG>();
+                manualDeliveryKg.MinimumMass = storage.capacityKg;
+                manualDeliveryKg.capacity = storage.capacityKg;
+                manualDeliveryKg.refillMass = storage.capacityKg;
+            }
         }
 
 

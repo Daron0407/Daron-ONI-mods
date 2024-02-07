@@ -1,10 +1,11 @@
 [h1]Endless Starmap Mining[/h1]
-This mod multiplies the mass and mass regeneration rate of every space POI that you can mine with a drillcone, allowing for non stop harvesting of resources.
+This mod multiplies the mass and mass regeneration rate of every space POI that you can mine with a drillcone and the internal storage of diamond for the drillcone, allowing for non stop harvesting of resources.
 
-Default multiplier: 10, can be customized in menu.
+Default multipliers (can be customized in menu): 
+ - 10 for the space POIs
+ - 2 for the drillcone
 
 Future plans:
-- increase the storage of drillcone allowing for more resources to be gathered per trip
 - increase the storage of all rocket cargo modules
 
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
