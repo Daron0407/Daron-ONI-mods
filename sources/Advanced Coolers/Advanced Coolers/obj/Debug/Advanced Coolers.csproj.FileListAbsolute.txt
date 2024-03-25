@@ -38,3 +38,4 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CopyComplete
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\PLib.dll

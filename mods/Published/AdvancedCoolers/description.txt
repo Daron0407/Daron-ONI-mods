@@ -16,5 +16,9 @@ Coolers need fullerene to be built so you're not unlocking any possibilities ear
 This mod is safe to use on existing saves.
 Deconstruct all built coolers before uninstalling this mod.
 
+[h1]25.03.2024[/h1]
+-Added Configuration
+
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
 This mod falls under [url=https://licenses.nuget.org/MIT]MIT license[/url]
+This mod uses PeterHan library under [url=https://licenses.nuget.org/MIT]MIT license[/url]

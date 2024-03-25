@@ -1,4 +1,5 @@
-﻿using TUNING;
+﻿using Advanced_Coolers;
+using TUNING;
 using UnityEngine;
 using static STRINGS.UI;
 using static TUNING.BUILDINGS;
@@ -37,9 +38,9 @@ namespace AdvancedCoolers
             BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "liquidcooler_kanim", 30, 30f, tier, materials, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
             buildingDef.RequiresPowerInput = true;
             buildingDef.Floodable = false;
-            buildingDef.EnergyConsumptionWhenActive = 960f;
-            buildingDef.ExhaustKilowattsWhenActive = -2000f;
-            buildingDef.SelfHeatKilowattsWhenActive = -32f;
+            buildingDef.EnergyConsumptionWhenActive = Config.Instance.LCWattage;
+            buildingDef.ExhaustKilowattsWhenActive = -Config.Instance.LCCooling;
+            buildingDef.SelfHeatKilowattsWhenActive = 0f;
             buildingDef.ViewMode = OverlayModes.Power.ID;
             buildingDef.AudioCategory = "SolidMetal";
             buildingDef.OverheatTemperature = 398.15f;

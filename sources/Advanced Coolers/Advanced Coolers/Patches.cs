@@ -1,5 +1,7 @@
-﻿using HarmonyLib;
-
+﻿using Advanced_Coolers;
+using HarmonyLib;
+using PeterHan.PLib.Core;
+using PeterHan.PLib.Options;
 
 namespace AdvancedCoolers
 {
@@ -8,6 +10,8 @@ namespace AdvancedCoolers
 
         public override void OnLoad(Harmony harmony)
         {
+            PUtil.InitLibrary();
+            new POptions().RegisterOptions(this, typeof(Config));
             LocString.CreateLocStringKeys(typeof(STRINGS.UI));
             base.OnLoad(harmony);
         }

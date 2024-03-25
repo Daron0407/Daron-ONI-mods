@@ -1,4 +1,5 @@
-﻿using TUNING;
+﻿using Advanced_Coolers;
+using TUNING;
 using UnityEngine;
 using static STRINGS.UI;
 using static TUNING.BUILDINGS;
@@ -37,9 +38,9 @@ namespace AdvancedCoolers
             EffectorValues noise = tieR2;
             BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spacecooler_kanim", 30, 30f, tier, materials, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
             buildingDef.RequiresPowerInput = true;
-            buildingDef.EnergyConsumptionWhenActive = 60f;
+            buildingDef.EnergyConsumptionWhenActive = Config.Instance.SCWattage;
             buildingDef.ExhaustKilowattsWhenActive = 0f;
-            buildingDef.SelfHeatKilowattsWhenActive = -64f;
+            buildingDef.SelfHeatKilowattsWhenActive = -Config.Instance.SCCooling;
             buildingDef.LogicInputPorts = LogicOperationalController.CreateSingleInputPortList(new CellOffset(1, 0));
             buildingDef.ViewMode = OverlayModes.Power.ID;
             buildingDef.AudioCategory = "HollowMetal";
