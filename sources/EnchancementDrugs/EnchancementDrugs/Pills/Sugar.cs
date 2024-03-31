@@ -1,9 +1,5 @@
 ﻿using Klei.AI;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace EnchancementDrugs
@@ -53,7 +49,7 @@ namespace EnchancementDrugs
 
         public string[] GetDlcIds()
         {
-            return DlcManager.AVAILABLE_ALL_VERSIONS;
+            return DlcManager.AVAILABLE_EXPANSION1_ONLY;
         }
 
         public void OnPrefabInit(GameObject inst)
@@ -61,14 +57,14 @@ namespace EnchancementDrugs
         }
 
         public void OnSpawn(GameObject inst)
-        { 
+        {
         }
 
         public class PillEffect
         {
             public static string Id = effectId;
             public Effect effect;
-            public PillEffect() 
+            public PillEffect()
             {
                 string name = PILLS.SUGAR.EFFECT.NAME;
                 string tooltip = PILLS.SUGAR.EFFECT.TOOLTIP;
@@ -78,7 +74,7 @@ namespace EnchancementDrugs
                 effect.Add(new AttributeModifier(Attributes.stress, -5 * Units.percentPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.calories, 100f * Units.caloriesPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.skills.Athletics, 1f * Units.points, name));
-                
+
             }
         }
     }

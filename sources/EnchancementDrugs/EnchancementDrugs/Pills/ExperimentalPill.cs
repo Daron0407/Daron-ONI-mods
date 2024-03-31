@@ -6,7 +6,7 @@ namespace EnchancementDrugs
 {
     public class ExperimentalPillConfig : IEntityConfig
     {
-        public const string ID = "Experiment 52C";
+        public const string ID = "Experiment_52C";
         public static ComplexRecipe recipe;
         public const string effectId = "Medicine_" + ID;
         public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, MedicineStations.SelfApplied);
@@ -53,7 +53,7 @@ namespace EnchancementDrugs
 
         public string[] GetDlcIds()
         {
-            return DlcManager.AVAILABLE_ALL_VERSIONS;
+            return DlcManager.AVAILABLE_EXPANSION1_ONLY;
         }
 
         public void OnPrefabInit(GameObject inst)
@@ -73,9 +73,9 @@ namespace EnchancementDrugs
                 string name = PILLS.EXPERIMENTALPILL.EFFECT.NAME;
                 string tooltip = PILLS.EXPERIMENTALPILL.EFFECT.TOOLTIP;
 
-                float duration = .5f * Units.cycles;
+                float duration = .8f * Units.cycles;
                 effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
-                effect.Add(new AttributeModifier(Attributes.stress, 150f * Units.percentPerCycle, name));
+                effect.Add(new AttributeModifier(Attributes.stress, 125f * Units.percentPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.germResistance, 5f * Units.points, name));
                 effect.Add(new AttributeModifier(Attributes.hitPoints, 100f * Units.hitPointsPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.stamina, 200f * Units.percentPerCycle, name));
@@ -89,6 +89,4 @@ namespace EnchancementDrugs
             }
         }
     }
-    //*/
-
 }

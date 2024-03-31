@@ -1,9 +1,5 @@
 ﻿using Klei.AI;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace EnchancementDrugs
@@ -55,7 +51,7 @@ namespace EnchancementDrugs
 
         public string[] GetDlcIds()
         {
-            return DlcManager.AVAILABLE_ALL_VERSIONS;
+            return DlcManager.AVAILABLE_EXPANSION1_ONLY;
         }
 
         public void OnPrefabInit(GameObject inst)

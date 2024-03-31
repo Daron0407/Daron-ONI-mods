@@ -1,9 +1,4 @@
 ﻿using Klei.AI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace EnchancementDrugs
@@ -26,7 +21,7 @@ namespace EnchancementDrugs
         private string conditionType;
         private float value;
         private bool compareBy;
-        public Condition(string conditionType, float value = 0f, bool compareBy = false) 
+        public Condition(string conditionType, float value = 0f, bool compareBy = false)
         {
             this.conditionType = conditionType;
             this.value = value;
@@ -35,7 +30,7 @@ namespace EnchancementDrugs
 
         public bool checkCondition(MedicinalPill pill, GameObject consumer)
         {
-            if(conditionType == Conditions.none)
+            if (conditionType == Conditions.none)
             {
                 return true;
             }
@@ -59,9 +54,9 @@ namespace EnchancementDrugs
             }
             if (conditionType == Conditions.stressTreshold)
             {
-                if(compareBy == Compare.lower)
+                if (compareBy == Compare.lower)
                 {
-                    if(consumer.GetAmounts().Get(Db.Get().Amounts.Stress.Id).value <= value)
+                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stress.Id).value <= value)
                     {
                         return true;
                     }
@@ -77,9 +72,9 @@ namespace EnchancementDrugs
             }
             if (conditionType == Conditions.staminaTreshold)
             {
-                if(compareBy == Compare.lower)
+                if (compareBy == Compare.lower)
                 {
-                    if(consumer.GetAmounts().Get(Db.Get().Amounts.Stamina.Id).value <= value)
+                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stamina.Id).value <= value)
                     {
                         return true;
                     }

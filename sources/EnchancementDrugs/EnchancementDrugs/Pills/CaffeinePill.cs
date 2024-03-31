@@ -1,10 +1,5 @@
-﻿using HarmonyLib;
-using Klei.AI;
-using System;
+﻿using Klei.AI;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace EnchancementDrugs
@@ -63,14 +58,14 @@ namespace EnchancementDrugs
         }
 
         public void OnSpawn(GameObject inst)
-        { 
+        {
         }
 
         public class PillEffect
         {
             public static string Id = effectId;
             public Effect effect;
-            public PillEffect() 
+            public PillEffect()
             {
                 string name = PILLS.CAFFEINEPILL.EFFECT.NAME;
                 string tooltip = PILLS.CAFFEINEPILL.EFFECT.TOOLTIP;
@@ -85,6 +80,6 @@ namespace EnchancementDrugs
         }
     }
 
-    
+
 
 }

@@ -1,11 +1,4 @@
-﻿using Klei.AI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EnchancementDrugs
+﻿namespace EnchancementDrugs
 {
     public class Units
     {
@@ -85,7 +78,7 @@ namespace EnchancementDrugs
 
         public static void Instantiate()
         {
-            if(Instance == null)
+            if (Instance == null)
             {
                 Instance = new Kanims();
             }
