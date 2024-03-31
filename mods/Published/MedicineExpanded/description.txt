@@ -1,0 +1,17 @@
+[h1]Medicine Expanded[/h1]
+This mod adds new medicine to the apothecary. But taking medicine also has drawbacks like extra stress, increased tiredness or hunger
+
+[b]I do not consider this mod finished yet, please comment what would you change/add[/b]
+
+[list]
+ [*] [b]Sugar[/b]: a small treat for your duplicants
+ [*] [b]Mood Booster[/b]: Heavy duty stress reliever, will use [b]only[/b] when really stressed
+ [*] [b]Rad Pill / Advanced Rad Pill[/b]: Upgraded versions of basic rad Pill, duplicants will need to get exposed to radiation before they decide to take it
+ [*] [b]Caffeine Pill[/b]: will greatly reduce the rate of losing stamina, will need to be somewhat sleepy in order to take it
+ [*] [b]Buffout / Mentats[/b]: Boosters for your colony's muscles and brains
+ [*] [b]Experimental Pill[/b]: Heavy boost to everything, but also comes with severe drawbacks
+[/list]
+
+
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
+This mod falls under [url=https://licenses.nuget.org/MIT]MIT license[/url]
