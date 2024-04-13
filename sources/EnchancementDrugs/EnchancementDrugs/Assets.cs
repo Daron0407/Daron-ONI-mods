@@ -25,6 +25,7 @@
         public static string radiationResistance = "RadiationResistance";
         public static string radiation = "RadiationRecovery";
         public static string calories = "CaloriesDelta";
+        public static string morale = "QualityOfLife";
         public class skills
         {
             public static string Athletics = "Athletics";

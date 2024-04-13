@@ -73,6 +73,7 @@ namespace EnchancementDrugs
 
                 effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
                 effect.Add(new AttributeModifier(Attributes.stress, -40f * Units.percentPerCycle, name));
+                effect.Add(new AttributeModifier(Attributes.morale, 2f * Units.points, name));
                 effect.Add(new AttributeModifier(Attributes.stamina, -30f * Units.percentPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.skills.Strength, -2f * Units.points, name));
                 effect.Add(new AttributeModifier(Attributes.skills.Athletics, -2f * Units.points, name));

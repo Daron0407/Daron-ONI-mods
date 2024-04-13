@@ -76,6 +76,7 @@ namespace EnchancementDrugs
                 float duration = .8f * Units.cycles;
                 effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
                 effect.Add(new AttributeModifier(Attributes.stress, 125f * Units.percentPerCycle, name));
+                effect.Add(new AttributeModifier(Attributes.morale, 30f * Units.points, name));
                 effect.Add(new AttributeModifier(Attributes.germResistance, 5f * Units.points, name));
                 effect.Add(new AttributeModifier(Attributes.hitPoints, 100f * Units.hitPointsPerCycle, name));
                 effect.Add(new AttributeModifier(Attributes.stamina, 200f * Units.percentPerCycle, name));
