@@ -1,4 +1,4 @@
-[h1]Advanced Heaters[/h1]
+[h1]Advanced Coolers[/h1]
 This mod adds cooling counterparts for space heaters and liquid tepedizers
 [img]https://i.imgur.com/07NR5U7.png[/img]
 Range: -265C <-> 100C
