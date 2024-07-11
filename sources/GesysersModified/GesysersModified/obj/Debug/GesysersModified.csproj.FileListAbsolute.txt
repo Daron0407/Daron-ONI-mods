@@ -1,0 +1,15 @@
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\GesysersModified.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\GesysersModified.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\obj\Debug\GesysersModified.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\obj\Debug\GesysersModified.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\obj\Debug\GesysersModified.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\obj\Debug\GesysersModified.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\GesysersModified\GesysersModified\obj\Debug\GesysersModified.pdb
