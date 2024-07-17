@@ -1,0 +1,10 @@
+[h1]Frozen Geysers[/h1]
+Oh no! It seems that this planet is frozen to the core! Even volcanoes froze over!
+
+[b]Changes[/b]
+Greatly decreased output temperature for most geysers, vents and volcanoes.
+No cnange for tungsten and niobium volcanoes as they don't spawn on the main planetoid
+
+
+Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
+This mod falls under [url=https://licenses.nuget.org/MIT]MIT license[/url]
