@@ -14,3 +14,19 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Rene
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.CopyComplete
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Renewable Abyssalite.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Renewable Abyssalite.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\bin\Debug\UnityEngine.UI.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Renewable Abyssalite\Renewable Abyssalite\obj\Debug\Renewable Abyssalite.pdb

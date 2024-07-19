@@ -20,3 +20,19 @@ C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes
 C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CopyComplete
 C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.dll
 C:\Users\daron\Dysk Google\workspace\C Sharp\Published\Source\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Hatch Diet Changes.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.UI.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.pdb
