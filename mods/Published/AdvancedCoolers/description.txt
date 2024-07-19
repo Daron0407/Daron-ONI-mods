@@ -1,7 +1,7 @@
 [h1]Advanced Coolers[/h1]
 This mod adds cooling counterparts for space heaters and liquid tepedizers
 [img]https://i.imgur.com/07NR5U7.png[/img]
-Range: -265C <-> 100C
+They can chill down to -260C
 
 [img]https://i.imgur.com/OTTkC1A.png[/img]
 Space Cooler: Built with 400 kg refined metal and 50 kg fullerene
@@ -16,6 +16,8 @@ Coolers need fullerene to be built so you're not unlocking any possibilities ear
 This mod is safe to use on existing saves.
 Deconstruct all built coolers before uninstalling this mod.
 
+[h1]19.07.2024[/h1]
+-Update broke sliders, use automation for now, I'll try to bring sliders back in the future
 [h1]25.03.2024[/h1]
 -Added Configuration
 

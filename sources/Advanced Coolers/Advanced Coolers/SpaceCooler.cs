@@ -51,10 +51,10 @@ namespace AdvancedCoolers
         public override void ConfigureBuildingTemplate(GameObject go, Tag prefab_tag)
         {
             go.AddOrGet<LoopingSounds>();
-            go.AddOrGet<MinimumOperatingTemperature>();
+            MinimumOperatingTemperature mot = go.AddOrGet<MinimumOperatingTemperature>();
+            mot.minimumTemperature = 273.15f - 260f;
             SpaceHeater sh = go.AddOrGet<SpaceHeater>();
             sh.targetTemperature = 10000f;
-            go.AddOrGet<AdjustableSlider>();
         }
 
         public override void DoPostConfigureComplete(GameObject go)
