@@ -18,13 +18,8 @@ namespace Heaters_Expanded
 
     public static class globals
     {
-        public static bool SHheating() => (Config.Instance.SHheating > 0f);
-        public static bool LTheating() => (Config.Instance.LTheating > 0f);
-
-        public static float MIN_TEMP = 0f;
         public static float MAX_TEMP = 10000f;
 
-        public static float KELVIN_TO_CELCIUS = -273.15f;
-        public static float CELCIUS_TO_KELVIN = -KELVIN_TO_CELCIUS;
+        public static float temperature(float celcuis) => celcuis + 273.15f;
     }
 }

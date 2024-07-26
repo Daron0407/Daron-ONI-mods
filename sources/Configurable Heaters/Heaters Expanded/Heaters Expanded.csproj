@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="LiquidTepedizerPatches.cs" />
+    <Compile Include="Patches.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpaceHeaterPatches.cs" />
+    <Compile Include="STRINGS.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\lib\References\0Harmony.dll</HintPath>
@@ -49,7 +57,7 @@
     </Reference>
     <Reference Include="PLib, Version=4.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\References\PLib.dll</HintPath>
+      <HintPath>..\..\..\lib\References\PLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -67,16 +75,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\lib\References\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="AdjustableLiquidHeater.cs" />
-    <Compile Include="AdjustableSpaceHeater.cs" />
-    <Compile Include="Config.cs" />
-    <Compile Include="LiquidTepedizerPatches.cs" />
-    <Compile Include="Patches.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpaceHeaterPatches.cs" />
-    <Compile Include="STRINGS.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

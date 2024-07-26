@@ -24,8 +24,7 @@ namespace Heaters_Expanded
     {
         public static void Postfix(GameObject go, TabHeaderIcon prefab_tag)
         {
-            go.AddOrGet<MinimumOperatingTemperature>();
-            go.AddOrGet<AdjustableLiquidHeater>();
+            go.GetComponent<SpaceHeater>().targetTemperature = globals.temperature(Config.Instance.LTheating);
         }
     }
 }
