@@ -1,0 +1,15 @@
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\CooledStorage.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\CooledStorage.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.pdb
