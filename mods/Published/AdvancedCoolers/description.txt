@@ -12,10 +12,13 @@ Liquid Cooler: Built with 400 kg refined metal and 100 kg fullerene
 
 This mod provides lag friendly way to cool your base.
 Coolers need fullerene to be built so you're not unlocking any possibilities earlier, they're just another option.
+You can disable the fullerene requirement in options.
 
 This mod is safe to use on existing saves.
 Deconstruct all built coolers before uninstalling this mod.
 
+[h1]02.09.2024[/h1]
+-Fullerene can now be disabled in the options making it so the buildings only require refined metal to build
 [h1]19.07.2024[/h1]
 -Update broke sliders, use automation for now, I'll try to bring sliders back in the future
 [h1]25.03.2024[/h1]

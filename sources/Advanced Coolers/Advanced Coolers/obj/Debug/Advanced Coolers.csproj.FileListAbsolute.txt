@@ -46,4 +46,3 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.CoreModule.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.ImageConversionModule.dll
-D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.UI.dll

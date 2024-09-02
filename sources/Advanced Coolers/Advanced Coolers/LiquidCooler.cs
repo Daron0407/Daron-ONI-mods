@@ -22,8 +22,8 @@ namespace AdvancedCoolers
 
         public override BuildingDef CreateBuildingDef()
         {
-            float[] tier = 
-            { 
+            float[] tier =
+            {
                 CONSTRUCTION_MASS_KG.TIER4[0],
                 CONSTRUCTION_MASS_KG.TIER2[0]
             };
@@ -32,10 +32,27 @@ namespace AdvancedCoolers
                 "RefinedMetal",
                 "Fullerene"
             };
+            float[] tierNoF =
+            {
+                CONSTRUCTION_MASS_KG.TIER4[0]
+            };
+            string[] materialsNoF =
+            {
+                "RefinedMetal"
+            };
             EffectorValues none = NOISE_POLLUTION.NONE;
             EffectorValues tieR1 = BUILDINGS.DECOR.PENALTY.TIER1;
             EffectorValues noise = none;
-            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "liquidcooler_kanim", 30, 30f, tier, materials, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
+            BuildingDef buildingDef;
+
+            if (Config.Instance.Fullerene)
+            {
+                buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "liquidcooler_kanim", 30, 30f, tier, materials, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
+            }
+            else
+            {
+                buildingDef = BuildingTemplates.CreateBuildingDef(ID, 4, 1, "liquidcooler_kanim", 30, 30f, tierNoF, materialsNoF, 3200f, BuildLocationRule.Anywhere, tieR1, noise);
+            }
             buildingDef.RequiresPowerInput = true;
             buildingDef.Floodable = false;
             buildingDef.EnergyConsumptionWhenActive = Config.Instance.LCWattage;

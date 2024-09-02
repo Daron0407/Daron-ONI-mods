@@ -2,6 +2,7 @@
 
 namespace AdvancedCoolers
 {
+    /*
     [SerializationConfig(MemberSerialization.OptIn)]
     public class AdjustableSlider : KMonoBehaviour, ISingleSliderControl, ISliderControl
     {
@@ -99,5 +100,5 @@ namespace AdvancedCoolers
         {
             return "Adjust target temperature";
         }
-    }
+    }*/
 }

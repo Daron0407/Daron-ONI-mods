@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Unity;
-using PeterHan.PLib.UI;
-using PeterHan.PLib.Core;
 using PeterHan.PLib.Options;
 using Newtonsoft.Json;
 
@@ -15,6 +8,10 @@ namespace Advanced_Coolers
     [RestartRequired]
     public class Config : SingletonOptions<Config>
     {
+        [JsonProperty]
+        [Option("Require fullerene to build", "")]
+        public bool Fullerene { get; set; }
+
         [JsonProperty]
         [Option("Space Cooler Cooling", "")]
         [Limit(1, 1024)]
@@ -39,6 +36,7 @@ namespace Advanced_Coolers
 
         public Config()
         {
+            Fullerene = true;
             SCCooling = 64;
             SCWattage = 60;
             LCCooling = 2048;

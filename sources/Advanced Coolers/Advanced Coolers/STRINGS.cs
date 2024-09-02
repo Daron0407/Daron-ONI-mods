@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdvancedCoolers
+﻿namespace AdvancedCoolers
 {
     class STRINGS
     {
@@ -19,5 +13,13 @@ namespace AdvancedCoolers
                 }
             }
         }
+        public static class MISC
+        {
+            public static class TAGS
+            {
+                public static LocString FULLERENE = "Fullerene";
+            }
+        }
     }
+    
 }

@@ -13,13 +13,13 @@ namespace AdvancedCoolers
             PUtil.InitLibrary();
             new POptions().RegisterOptions(this, typeof(Config));
             LocString.CreateLocStringKeys(typeof(STRINGS.UI));
+            LocString.CreateLocStringKeys(typeof(STRINGS.MISC));
             base.OnLoad(harmony);
         }
 
 
 
-        [HarmonyPatch(typeof(Db))]
-        [HarmonyPatch(nameof(Db.Initialize))]
+        [HarmonyPatch(typeof(Db), nameof(Db.Initialize))]
         public static class Db_Initialize_Patch
         {
 

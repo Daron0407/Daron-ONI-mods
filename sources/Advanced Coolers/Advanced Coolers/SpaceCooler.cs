@@ -24,19 +24,35 @@ namespace AdvancedCoolers
             float[] tier =
             {
                 CONSTRUCTION_MASS_KG.TIER4[0],
-                CONSTRUCTION_MASS_KG.TIER1[0]
+                CONSTRUCTION_MASS_KG.TIER2[0]
             };
             string[] materials =
             {
                 "RefinedMetal",
                 "Fullerene"
             };
+            float[] tierNoF =
+            {
+                CONSTRUCTION_MASS_KG.TIER4[0]
+            };
+            string[] materialsNoF =
+            {
+                "RefinedMetal"
+            };
 
 
             EffectorValues tieR2 = NOISE_POLLUTION.NOISY.TIER2;
             EffectorValues tieR1 = BUILDINGS.DECOR.BONUS.TIER1;
             EffectorValues noise = tieR2;
-            BuildingDef buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spacecooler_kanim", 30, 30f, tier, materials, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
+            BuildingDef buildingDef;
+            if (Config.Instance.Fullerene)
+            {
+                buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spacecooler_kanim", 30, 30f, tier, materials, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
+            }
+            else
+            {
+                buildingDef = BuildingTemplates.CreateBuildingDef(ID, 2, 2, "spacecooler_kanim", 30, 30f, tierNoF, materialsNoF, 1600f, BuildLocationRule.OnFloor, tieR1, noise);
+            }
             buildingDef.RequiresPowerInput = true;
             buildingDef.EnergyConsumptionWhenActive = Config.Instance.SCWattage;
             buildingDef.ExhaustKilowattsWhenActive = 0f;
