@@ -4,7 +4,7 @@ Oh no! It seems that this planet is frozen to the core! Even volcanoes froze ove
 [h2]Changes[/h2]
 Greatly decreased output temperature for most geysers, vents and volcanoes.
 No cnange for tungsten and niobium volcanoes as they don't spawn on the main planetoid
-[b]Detailed description[/b]
+
 [table]
     [tr]
         [th]Geyser/Vent/Volcano[/th]
@@ -127,9 +127,6 @@ No cnange for tungsten and niobium volcanoes as they don't spawn on the main pla
         [td]194°F[/td]
     [/tr]
 [/table]
-
-
-
 
 
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]

@@ -3,38 +3,119 @@ This mod changes diets of Hatches
 
 [b]Hatch[/b]
 Added:
-Regolith (140 kg/cycle) -> Coal (70 kg/cycle)
-Salt (140 kg/cycle) -> Coal (70 kg/cycle)
-Copper (100 kg/cycle) -> Copper Ore (95 kg/cycle)
-Iron (100 kg/cycle) -> Iron Ore (95 kg/cycle)
-Gold (100 kg/cycle) -> Gold Amalgam (95 kg/cycle)
-Tungsten (100 kg/cycle) -> Wolframite (95 kg/cycle)
-Aluminum (100 kg/cycle) -> Aluminum Ore (95 kg/cycle)
+[table]
+   [tr]
+      [th]Input[/th]
+      [th]Output[/th]
+   [/tr]
+   [tr]
+      [td]Regolith (140 kg/cycle)[/td]
+      [td]Coal (70 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Salt (140 kg/cycle)[/td]
+      [td]Coal (70 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Copper (100 kg/cycle)[/td]
+      [td]Copper Ore (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Iron (100 kg/cycle)[/td]
+      [td]Iron Ore (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Gold (100 kg/cycle)[/td]
+      [td]Gold Amalgam (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Tungsten (100 kg/cycle)[/td]
+      [td]Wolframite (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Aluminum (100 kg/cycle)[/td]
+      [td]Aluminum Ore (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]DLC Only: Cobalt (100 kg/cycle)[/td]
+      [td]Cobalt Ore (95 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]DLC Only: Depleted Uranium (100 kg/cycle)[/td]
+      [td]Uranium Ore (95 kg/cycle)[/td]
+   [/tr]
+[/table]
 
-DLC Only: Cobalt (100 kg/cycle) -> Cobalt Ore (95 kg/cycle)
-DLC Only: Depleted Uranium (100 kg/cycle) -> Uranium Ore (95 kg/cycle)
 
 [b]Sage Hatch[/b]
 Added:
-Phosphorite (140 kg/cycle) -> Coal (140 kg/cycle)
-Sulfur (140 kg/cycle) -> Coal (140 kg/cycle)
-Salt (140 kg/cycle) -> Coal (140 kg/cycle)
+[table]
+   [tr]
+      [th]Input[/th]
+      [th]Output[/th]
+   [/tr]
+   [tr]
+      [td]Phosphorite (140 kg/cycle)[/td]
+      [td]Coal (140 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Sulfur (140 kg/cycle)[/td]
+      [td]Coal (140 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Salt (140 kg/cycle)[/td]
+      [td]Coal (140 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]DLC Only: Mud (140 kg/cycle)[/td]
+      [td]Coal (140 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]DLC Only: Polluted Mud (140 kg/cycle)[/td]
+      [td]Coal (140 kg/cycle)[/td]
+   [/tr]
+[/table]
 
-DLC Only: Mud (140 kg/cycle) -> Coal (140 kg/cycle)
-DLC Only: Polluted Mud (140 kg/cycle) -> Coal (140 kg/cycle)
 
 [b]Stone Hatch[/b]
 Removed Obsidian and Wolframite from diet
 Added:
-Glass (140 kg/cycle) -> Obsidian (70 kg/cycle)
-Abyssalite (140 kg/cycle) -> Wolframite (70 kg/cycle)
-Fossil (100 kg/cycle) -> Lime (25kg/cycle)
+[table]
+   [tr]
+      [th]Input[/th]
+      [th]Output[/th]
+   [/tr]
+   [tr]
+      [td]Glass (140 kg/cycle)[/td]
+      [td]Obsidian (70 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Abyssalite (140 kg/cycle)[/td]
+      [td]Wolframite (70 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Fossil (100 kg/cycle)[/td]
+      [td]Lime (25 kg/cycle)[/td]
+   [/tr]
+[/table]
+
 
 [b]Smooth Hatch[/b]
 Added:
-Refined Carbon (100 kg/cycle) -> Diamond (75 kg/cycle)
-Rust (100 kg/cycle) -> Iron (75 kg/cycle)
-
+[table]
+   [tr]
+      [th]Input[/th]
+      [th]Output[/th]
+   [/tr]
+   [tr]
+      [td]Refined Carbon (100 kg/cycle)[/td]
+      [td]Diamond (75 kg/cycle)[/td]
+   [/tr]
+   [tr]
+      [td]Rust (100 kg/cycle)[/td]
+      [td]Iron (75 kg/cycle)[/td]
+   [/tr]
+[/table]
 
 
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
