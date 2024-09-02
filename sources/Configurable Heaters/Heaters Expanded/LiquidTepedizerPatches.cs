@@ -24,7 +24,7 @@ namespace Heaters_Expanded
     {
         public static void Postfix(GameObject go, TabHeaderIcon prefab_tag)
         {
-            go.GetComponent<SpaceHeater>().targetTemperature = globals.temperature(Config.Instance.LTheating);
+            go.GetComponent<SpaceHeater>().targetTemperature = globals.temperature(Config.Instance.LTtarget);
         }
     }
 }
