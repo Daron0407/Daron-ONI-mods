@@ -1,0 +1,1 @@
+Changes battery banks mass from 20 kg to 1 kg so you can precisely tell your duplicants how many they should store in a storage bin.

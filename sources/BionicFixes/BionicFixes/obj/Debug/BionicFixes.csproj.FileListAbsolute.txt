@@ -1,0 +1,15 @@
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\BionicFixes.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\BionicFixes.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\obj\Debug\BionicFixes.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\obj\Debug\BionicFixes.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\obj\Debug\BionicFixes.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\obj\Debug\BionicFixes.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\BionicFixes\BionicFixes\obj\Debug\BionicFixes.pdb
