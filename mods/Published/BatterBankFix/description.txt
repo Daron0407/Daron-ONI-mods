@@ -2,4 +2,3 @@ Changes battery banks mass from 20 kg to 1 kg so you can precisely tell your dup
 
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]
 This mod falls under [url=https://licenses.nuget.org/MIT]MIT license[/url]
-This mod uses PeterHan library under [url=https://licenses.nuget.org/MIT]MIT license[/url]
