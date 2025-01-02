@@ -3,10 +3,10 @@ This mod adds cooling counterparts for space heaters and liquid tepedizers
 [img]https://i.imgur.com/07NR5U7.png[/img]
 They can chill down to -260C
 
-[img]https://i.imgur.com/OTTkC1A.png[/img]
+[img]https://i.imgur.com/AiKLosv.png[/img]
 Space Cooler: Built with 400 kg refined metal and 50 kg fullerene
 
-[img]https://i.imgur.com/qpEIzKX.png[/img]
+[img]https://i.imgur.com/GoZbP6C.png[/img]
 Liquid Cooler: Built with 400 kg refined metal and 100 kg fullerene
 
 
