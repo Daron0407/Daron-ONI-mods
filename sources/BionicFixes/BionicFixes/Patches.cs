@@ -25,14 +25,4 @@ namespace BionicFixes
             __result.GetComponent<PrimaryElement>().MassPerUnit = 1f;
         }
     }
-
-    [HarmonyPatch(typeof(EmptyElectrobankConfig), nameof(EmptyElectrobankConfig.CreatePrefab))]
-    public static class EmptyPowerBank
-    {
-        public static void Postfix(ref GameObject __result)
-        {
-            __result.GetComponent<PrimaryElement>().MassPerUnit = 1f;
-        }
-    }
-
 }
