@@ -1,0 +1,15 @@
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Speedrunning.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Speedrunning.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\obj\Debug\Speedrunning.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\obj\Debug\Speedrunning.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\obj\Debug\Speedrunning.csproj.CopyComplete
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\obj\Debug\Speedrunning.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Speedrunning\Speedrunning\obj\Debug\Speedrunning.pdb

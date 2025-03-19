@@ -16,6 +16,8 @@ namespace EnchancementDrugs
             __instance.effects.Add(new AdvancedRadPillConfig.PillEffect().effect);
             __instance.effects.Add(new MentatsConfig.PillEffect().effect);
             __instance.effects.Add(new ExperimentalPillConfig.PillEffect().effect);
+
+            __instance.effects.Add(new SuperPillConfig.PillEffect().effect);
         }
     }
 }
