@@ -17,6 +17,10 @@ You can disable the fullerene requirement in options.
 This mod is safe to use on existing saves.
 Deconstruct all built coolers before uninstalling this mod.
 
+[h1]11.08.2025[/h1]
+-Locked the buildings behind research
+-Improved display in mod config
+-Rewritten descriptions
 [h1]02.09.2024[/h1]
 -Fullerene can now be disabled in the options making it so the buildings only require refined metal to build
 [h1]19.07.2024[/h1]

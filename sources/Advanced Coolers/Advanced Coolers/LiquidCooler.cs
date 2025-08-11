@@ -16,9 +16,9 @@ namespace AdvancedCoolers
         public static readonly LocString Name = FormatAsLink("Liquid Cooler", Id);
 
         public static readonly LocString Description =
-            "Absorbs heat at the cost of energy";
+            "Liquid coolers are very effective at removing large amounts of heat quickly.";
 
-        public static readonly string Effect = Description;
+        public static readonly string Effect = "Absorbs modarate amount of heat\n\nRequires power in order to function";
 
         public override BuildingDef CreateBuildingDef()
         {

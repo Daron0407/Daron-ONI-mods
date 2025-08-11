@@ -15,9 +15,9 @@ namespace AdvancedCoolers
         public static readonly LocString Name = FormatAsLink("Space Cooler", Id);
 
         public static readonly LocString Description =
-            "Absorbs heat at the cost of energy";
+            "Space coolers are very effective at preventing heat from getting out of control.";
 
-        public static readonly string Effect = Description;
+        public static readonly string Effect = "Absorbs modarate amount of heat\n\nRequires power in order to function";
 
         public override BuildingDef CreateBuildingDef()
         {

@@ -10,7 +10,7 @@ namespace AdvancedCoolers
 
         public override void OnLoad(Harmony harmony)
         {
-            PUtil.InitLibrary();
+            PUtil.InitLibrary(false);
             new POptions().RegisterOptions(this, typeof(Config));
             LocString.CreateLocStringKeys(typeof(STRINGS.UI));
             LocString.CreateLocStringKeys(typeof(STRINGS.MISC));
@@ -28,6 +28,8 @@ namespace AdvancedCoolers
                 SetupStrings();
                 ModUtil.AddBuildingToPlanScreen("Utilities", SpaceCooler.Id);
                 ModUtil.AddBuildingToPlanScreen("Utilities", LiquidCooler.Id);
+                Db.Get().Techs.Get("TemperatureModulation").unlockedItemIDs.Add(SpaceCooler.Id);
+                Db.Get().Techs.Get("LiquidTemperature").unlockedItemIDs.Add(LiquidCooler.Id);
             }
 
 

@@ -35,7 +35,6 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\Newtonsoft.Json.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.AssemblyReference.cache
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CoreCompileInputs.cache
-D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.csproj.CopyComplete
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced Coolers.pdb
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\PLib.dll
@@ -46,3 +45,4 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.CoreModule.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Advanced Coolers\Advanced Coolers\obj\Debug\Advanced.8EE607E2.Up2Date
