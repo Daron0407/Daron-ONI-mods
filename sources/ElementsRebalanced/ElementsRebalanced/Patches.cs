@@ -18,17 +18,17 @@ namespace ElementsRebalanced
             {
                 if (entry.elementId.ToString().Equals("SuperCoolant"))
                 {
-                    //elem.highTemp = 6000f;
-                    //elem.thermalConductivity = 1000f;
+                    elem.highTemp = 6000f;
+                    elem.thermalConductivity = 1000f;
                 }
                 if (entry.elementId.ToString().Equals("SuperCoolantGas"))
                 {
-                    //elem.lowTemp = 6000f;
+                    elem.lowTemp = 6000f;
                 }
                 if (entry.elementId.ToString().Equals("ViscoGel"))
                 {
-                    //elem.highTemp = 1000f;
-                    //elem.lowTemp = 100f;
+                    elem.highTemp = 1000f;
+                    elem.lowTemp = 5f;
                     elem.thermalConductivity = 0.0001f;
                     elem.specificHeatCapacity = 6f;
                 }
@@ -39,7 +39,7 @@ namespace ElementsRebalanced
                 }
                 if (entry.elementId.ToString().Equals("Petroleum"))
                 {
-                    //elem.highTempTransitionTarget = (SimHashes)Hash.SDBMLower("Methane");
+                    elem.highTempTransitionTarget = (SimHashes)Hash.SDBMLower("Methane");
                 }
 
             }
@@ -93,10 +93,10 @@ namespace ElementsRebalanced
 
                 modifyDecor(SimHashes.Cobaltite, 0.1f);
 
-                modifyOverheat(SimHashes.Wolframite, 50f);
-                modifyOverheat(SimHashes.Tungsten, 100f);
+                //modifyOverheat(SimHashes.Wolframite, 50f);
+               //modifyOverheat(SimHashes.Tungsten, 100f);
 
-                modifyDecor(SimHashes.Ceramic, 1.0f);
+                //modifyDecor(SimHashes.Ceramic, 1.0f);
 
                 //modifyDecor(SimHashes.TempConductorSolid, 0.5f);
                 //modifyOverheat(SimHashes.TempConductorSolid, 5000f);
