@@ -6,7 +6,7 @@ namespace CooledStorage
     {
         public override void OnLoad(Harmony harmony)
         {
-            LocString.CreateLocStringKeys(typeof(STRINGS.UI));
+            LocString.CreateLocStringKeys(typeof(STRINGS.MISC));
             base.OnLoad(harmony);
         }
     }
@@ -18,15 +18,28 @@ namespace CooledStorage
 
         public static void Postfix()
         {
-            SetupStrings();
-            ModUtil.AddBuildingToPlanScreen("Base", CooledLocker.ID);
-            //ModUtil.AddBuildingToPlanScreen("Utilities", CooledLocker.ID);
+            Setup();
         }
 
 
-        private static void SetupStrings()
+        private static void Setup()
         {
-            SetString(CooledLocker.ID.ToUpper(), CooledLocker.Name, CooledLocker.Description, CooledLocker.Effect);
+            SetString(CooledStorageBin.ID.ToUpper(), CooledStorageBin.Name, CooledStorageBin.Description, CooledStorageBin.Effect);
+            SetString(ChilledStorageBin.ID.ToUpper(), ChilledStorageBin.Name, ChilledStorageBin.Description, ChilledStorageBin.Effect);
+            SetString(FrozenStorageBin.ID.ToUpper(), FrozenStorageBin.Name, FrozenStorageBin.Description, FrozenStorageBin.Effect);
+            SetString(CryoStorageBin.ID.ToUpper(), CryoStorageBin.Name, CryoStorageBin.Description, CryoStorageBin.Effect);
+
+
+            ModUtil.AddBuildingToPlanScreen("Base", CooledStorageBin.ID);
+            ModUtil.AddBuildingToPlanScreen("Base", ChilledStorageBin.ID);
+            ModUtil.AddBuildingToPlanScreen("Base", FrozenStorageBin.ID);
+            ModUtil.AddBuildingToPlanScreen("Base", CryoStorageBin.ID);
+
+
+            Db.Get().Techs.Get("TemperatureModulation").unlockedItemIDs.Add(CooledStorageBin.ID);
+            Db.Get().Techs.Get("HVAC").unlockedItemIDs.Add(ChilledStorageBin.ID);
+            Db.Get().Techs.Get("Catalytics").unlockedItemIDs.Add(FrozenStorageBin.ID);
+            Db.Get().Techs.Get("Catalytics").unlockedItemIDs.Add(CryoStorageBin.ID);
         }
 
         private static void SetString(string path, string name, string description, string effect)

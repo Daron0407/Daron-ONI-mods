@@ -4,90 +4,77 @@ using UnityEngine;
 
 namespace EnchancementDrugs
 {
-    public class ExperimentalPillConfig : IEntityConfig
+    public class ExperimentalPillConfig : PillBaseConfig
     {
         public const string ID = "Experiment_52C";
-        public static ComplexRecipe recipe;
+        public static string medicineStation = MedicineStations.SelfApplied;
+        public static string requiredTech = "MedicineIV";
+
+        public const string name = "Experiment 52C";
+        public const string description = "Expermiental drug tested by Gravitas Facility bioengineering division";
+        public const string recipeDescription = "An experimantal drug";
+
+        public const string effectName = "Boost 52C";
+        public const string effectTooltip = "I'm sure this is safe";
+        public const float durationCycles = 0.8f;
+
         public const string effectId = "Medicine_" + ID;
-        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, MedicineStations.SelfApplied);
-        public static Condition condition;
+        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, medicineStation);
 
-        public GameObject CreatePrefab()
+        public override GameObject CreatePrefab()
         {
-            condition = new Condition(Conditions.none);
-            string name = PILLS.EXPERIMENTALPILL.NAME;
-            string desc = PILLS.EXPERIMENTALPILL.DESC;
-            string recipeDescr = PILLS.EXPERIMENTALPILL.RECIPE.DESC;
-            Kanims.Instantiate();
-            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, desc, 1f, true, Kanims.radiation_vial, "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
+            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, description, 1f, true, Kanims.getPillKanimFile(Kanims.Pills.radiation_vial), "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
             EntityTemplates.ExtendEntityToMedicine(looseEntity, medicineInfo);
+            GenerateRecipe();
+            return looseEntity;
+        }
 
-
-            ComplexRecipe.RecipeElement[] recipeElementArray1 = new ComplexRecipe.RecipeElement[]
+        public override void GenerateRecipe()
+        {
+            ComplexRecipe.RecipeElement[] inputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement(SimHashes.Steel.CreateTag(), 1f),
-                    new ComplexRecipe.RecipeElement(SimHashes.Resin.CreateTag(), 1f),
                     new ComplexRecipe.RecipeElement(SimHashes.Sulfur.CreateTag(), 1f),
                     new ComplexRecipe.RecipeElement(SimHashes.Petroleum.CreateTag(), 1f),
-                    new ComplexRecipe.RecipeElement(SimHashes.EnrichedUranium.CreateTag(), .1f),
+                    new ComplexRecipe.RecipeElement(SimHashes.EnrichedUranium.CreateTag(), 0.1f)
             };
-            ComplexRecipe.RecipeElement[] recipeElementArray2 = new ComplexRecipe.RecipeElement[]
+            ComplexRecipe.RecipeElement[] outputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement((Tag) ID, 1f)
             };
-            recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", recipeElementArray1, recipeElementArray2), recipeElementArray1, recipeElementArray2)
+            ComplexRecipe recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", inputs, outputs), inputs, outputs)
             {
-                time = 500f,
-                description = recipeDescr,
+                time = 300f,
+                description = recipeDescription,
                 nameDisplay = ComplexRecipe.RecipeNameDisplay.Result,
                 fabricators = new List<Tag>()
                   {
                     (Tag) "Apothecary"
                   },
-                requiredTech = "MedicineIV",
+                requiredTech = requiredTech,
                 sortOrder = 6
             };
-
-            return looseEntity;
         }
 
-        public string[] GetDlcIds()
+        public static Effect GetPillEffect()
         {
-            return DlcManager.AVAILABLE_EXPANSION1_ONLY;
-        }
+            float duration = durationCycles * Units.cycles;
+            Effect effect = Utility.MakeEffect(effectId, effectName, effectTooltip, duration);
+            effect.Add(new AttributeModifier(Attributes.stress, 100f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.stamina, -40f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.radiation, 300f * Units.radsPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.calories, -1000f * Units.caloriesPerCycle, name));
 
-        public void OnPrefabInit(GameObject inst)
-        {
-        }
-
-        public void OnSpawn(GameObject inst)
-        {
-        }
-
-        public class PillEffect
-        {
-            public static string Id = effectId;
-            public Effect effect;
-            public PillEffect()
+            foreach (string skill in Attributes.skills.ALL_SKILLS)
             {
-                string name = PILLS.EXPERIMENTALPILL.EFFECT.NAME;
-                string tooltip = PILLS.EXPERIMENTALPILL.EFFECT.TOOLTIP;
-
-                float duration = .8f * Units.cycles;
-                effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
-                effect.Add(new AttributeModifier(Attributes.stress, 125f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.morale, 30f * Units.points, name));
-                effect.Add(new AttributeModifier(Attributes.germResistance, 5f * Units.points, name));
-                effect.Add(new AttributeModifier(Attributes.hitPoints, 100f * Units.hitPointsPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.stamina, 200f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.radiation, 300f * Units.radsPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.calories, 2000f * Units.caloriesPerCycle, name));
-
-                foreach (string skill in Attributes.skills.ALL_SKILLS)
-                {
-                    effect.Add(new AttributeModifier(skill, 3f * Units.points, name));
-                }
+                effect.Add(new AttributeModifier(skill, 10f * Units.points, name));
             }
+            return effect;
+        }
+
+        public static bool CheckConditions(GameObject consumer)
+        {
+            return true;
         }
     }
 }

@@ -4,84 +4,77 @@ using UnityEngine;
 
 namespace EnchancementDrugs
 {
-    //* This is a testing drug
-    public class SuperPillConfig : IEntityConfig
+    /* This is a testing drug
+    public class SuperPillConfig : PillBaseConfig
     {
         public const string ID = "SuperPill";
-        public static ComplexRecipe recipe;
-        public const string effectId = "Medicine_" + ID;
-        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, MedicineStations.SelfApplied);
-        public static Condition condition;
+        public static string medicineStation = MedicineStations.SelfApplied;
+        public static string requiredTech = "MedicineIV";
 
-        public GameObject CreatePrefab()
+        public const string name = "Super Pill";
+        public const string description = "Makes everything way too easy";
+        public const string recipeDescription = "A Pill that makes everything way too easy";
+
+        public const string effectName = "Super Pilled";
+        public const string effectTooltip = "Significantly improves well being";
+        public const float durationCycles = 100f;
+
+        public const string effectId = "Medicine_" + ID;
+        public static Condition condition;
+        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, medicineStation);
+
+        public override GameObject CreatePrefab()
         {
             condition = new Condition(Conditions.none);
-            string name = PILLS.SUPERPILL.NAME;
-            string desc = PILLS.SUPERPILL.DESC;
-            string recipeDescr = PILLS.SUPERPILL.RECIPE.DESC;
-            Kanims.Instantiate();
-            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, desc, 1f, true, Kanims.pill_1, "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
+            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, description, 1f, true, Kanims.getPillKanimFile(Kanims.Pills.pill_1), "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
             EntityTemplates.ExtendEntityToMedicine(looseEntity, medicineInfo);
+            GenerateRecipe();
+            return looseEntity;
+        }
 
-
-            ComplexRecipe.RecipeElement[] recipeElementArray1 = new ComplexRecipe.RecipeElement[]
+        public override void GenerateRecipe()
+        {
+            ComplexRecipe.RecipeElement[] inputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement(SimHashes.Carbon.CreateTag(), 1f)
             };
-            ComplexRecipe.RecipeElement[] recipeElementArray2 = new ComplexRecipe.RecipeElement[]
+            ComplexRecipe.RecipeElement[] outputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement((Tag) ID, 1f)
             };
-            recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", recipeElementArray1, recipeElementArray2), recipeElementArray1, recipeElementArray2)
+            ComplexRecipe recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", inputs, outputs), inputs, outputs)
             {
                 time = 100f,
-                description = recipeDescr,
+                description = recipeDescription,
                 nameDisplay = ComplexRecipe.RecipeNameDisplay.Result,
                 fabricators = new List<Tag>()
                   {
                     (Tag) "Apothecary"
                   },
-                requiredTech = "MedicineIV",
+                requiredTech = requiredTech,
                 sortOrder = 6
             };
-
-            return looseEntity;
         }
 
-        public string[] GetDlcIds()
+        public static Effect GetPillEffect()
         {
-            return DlcManager.AVAILABLE_ALL_VERSIONS;
-        }
+            float duration = durationCycles * Units.cycles;
+            Effect effect = Utility.MakeEffect(effectId, effectName, effectTooltip, duration);
+            effect.Add(new AttributeModifier(Attributes.stress, -100f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.hitPoints, 100f * Units.hitPointsPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.radiationResistance, 99f * Units.percent, name));
+            effect.Add(new AttributeModifier(Attributes.radiation, -100f * Units.radsPerCycle, name));
 
-        public void OnPrefabInit(GameObject inst)
-        {
-        }
-
-        public void OnSpawn(GameObject inst)
-        {
-        }
-
-        public class PillEffect
-        {
-            public static string Id = effectId;
-            public Effect effect;
-            public PillEffect()
+            foreach (string skill in Attributes.skills.ALL_SKILLS)
             {
-                string name = PILLS.SUPERPILL.EFFECT.NAME;
-                string tooltip = PILLS.SUPERPILL.EFFECT.TOOLTIP;
-
-                float duration = 100f * Units.cycles;
-                effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
-                effect.Add(new AttributeModifier(Attributes.stress, -100f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.hitPoints, 100f * Units.hitPointsPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.radiationResistance, 99f * Units.percent, name));
-                effect.Add(new AttributeModifier(Attributes.radiation, -100f * Units.radsPerCycle, name));
-
-                foreach (string skill in Attributes.skills.ALL_SKILLS)
-                {
-                    effect.Add(new AttributeModifier(skill, 40f * Units.points, name));
-                }
+                effect.Add(new AttributeModifier(skill, 40f * Units.points, name));
             }
+            return effect;
+        }
+
+        public static bool CheckConditions(GameObject consumer)
+        {
+            return condition.checkCondition(consumer);
         }
     }
     //*/

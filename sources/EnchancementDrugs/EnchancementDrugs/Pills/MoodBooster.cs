@@ -4,80 +4,74 @@ using UnityEngine;
 
 namespace EnchancementDrugs
 {
-    public class MoodBoosterConfig : IEntityConfig
+    public class MoodBoosterConfig : PillBaseConfig
     {
         public const string ID = "MoodBooster";
-        public static ComplexRecipe recipe;
+        public static string medicineStation = MedicineStations.SelfApplied;
+        public static string requiredTech = "MedicineIV";
+
+        public const string name = "Mood Booster";
+        public const string description = "A duplicant will take this when really stressed out";
+        public const string recipeDescription = "A Pill that alievieates stress. A duplicant will take this when really stressed out";
+
+        public const string effectName = "Chilled Out";
+        public const string effectTooltip = "Significantly decreases stress";
+        public const float durationCycles = Default.pillDuration;
+
         public const string effectId = "Medicine_" + ID;
-        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, MedicineStations.SelfApplied);
-        public static Condition condition;
+        public static Condition highStress;
+        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, medicineStation);
 
-        public GameObject CreatePrefab()
+        public override GameObject CreatePrefab()
         {
-            condition = new Condition(Conditions.stressTreshold, 80f, Compare.higher);
-            string name = PILLS.MOODBOOSTER.NAME;
-            string desc = PILLS.MOODBOOSTER.DESC;
-            string recipeDescr = PILLS.MOODBOOSTER.RECIPE.DESC;
-            Kanims.Instantiate();
-            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, desc, 1f, true, Kanims.pill_3, "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
+            highStress = new Condition(Conditions.stressTreshold, 60f, Compare.higher);
+            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, description, 1f, true, Kanims.getPillKanimFile(Kanims.Pills.pill_3), "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
             EntityTemplates.ExtendEntityToMedicine(looseEntity, medicineInfo);
+            GenerateRecipe();
+            return looseEntity;
+        }
 
-
-            ComplexRecipe.RecipeElement[] recipeElementArray1 = new ComplexRecipe.RecipeElement[]
+        public override void GenerateRecipe()
+        {
+            ComplexRecipe.RecipeElement[] inputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement((Tag) SwampLilyFlowerConfig.ID, 1f),
                     new ComplexRecipe.RecipeElement(SimHashes.Ethanol.CreateTag(), 1f)
             };
-            ComplexRecipe.RecipeElement[] recipeElementArray2 = new ComplexRecipe.RecipeElement[]
+            ComplexRecipe.RecipeElement[] outputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement((Tag) ID, 1f)
             };
-            recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", recipeElementArray1, recipeElementArray2), recipeElementArray1, recipeElementArray2)
+            ComplexRecipe recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", inputs, outputs), inputs, outputs)
             {
-                time = 60f,
-                description = recipeDescr,
+                time = Default.fabricationSpeed,
+                description = recipeDescription,
                 nameDisplay = ComplexRecipe.RecipeNameDisplay.Result,
                 fabricators = new List<Tag>()
                   {
                     (Tag) "Apothecary"
                   },
-                requiredTech = "MedicineIV",
+                requiredTech = requiredTech,
                 sortOrder = 6
             };
-
-            return looseEntity;
         }
 
-        public string[] GetDlcIds()
+        public static Effect GetPillEffect()
         {
-            return DlcManager.AVAILABLE_ALL_VERSIONS;
+            float duration = durationCycles * Units.cycles;
+            Effect effect = Utility.MakeEffect(effectId, effectName, effectTooltip, duration);
+            effect.Add(new AttributeModifier(Attributes.stress, -60f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.stamina, -30f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.morale, 2f * Units.points, name));
+            effect.Add(new AttributeModifier(Attributes.skills.Strength, -2f * Units.points, name));
+            effect.Add(new AttributeModifier(Attributes.skills.Athletics, -2f * Units.points, name));
+            effect.Add(new AttributeModifier(Attributes.skills.Science, -2f * Units.points, name));
+            return effect;
         }
 
-        public void OnPrefabInit(GameObject inst)
+        public static bool CheckConditions(GameObject consumer)
         {
-        }
-
-        public void OnSpawn(GameObject inst)
-        {
-        }
-
-        public class PillEffect
-        {
-            public static string Id = effectId;
-            public Effect effect;
-            public PillEffect()
-            {
-                string name = PILLS.MOODBOOSTER.EFFECT.NAME;
-                string tooltip = PILLS.MOODBOOSTER.EFFECT.TOOLTIP;
-                float duration = 1f * Units.cycles;
-
-                effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
-                effect.Add(new AttributeModifier(Attributes.stress, -40f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.morale, 2f * Units.points, name));
-                effect.Add(new AttributeModifier(Attributes.stamina, -30f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.skills.Strength, -2f * Units.points, name));
-                effect.Add(new AttributeModifier(Attributes.skills.Athletics, -2f * Units.points, name));
-            }
+            return highStress.checkCondition(consumer);
         }
     }
 

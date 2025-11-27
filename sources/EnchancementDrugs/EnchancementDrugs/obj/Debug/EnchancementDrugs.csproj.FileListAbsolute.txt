@@ -10,6 +10,7 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\b
 D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\bin\Debug\UnityEngine.ImageConversionModule.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\EnchancementDrugs.csproj.AssemblyReference.cache
 D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\EnchancementDrugs.csproj.CoreCompileInputs.cache
-D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\EnchancementDrugs.csproj.CopyComplete
 D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\EnchancementDrugs.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\EnchancementDrugs.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\EnchancementDrugs\EnchancementDrugs\obj\Debug\Enchance.D85A5604.Up2Date

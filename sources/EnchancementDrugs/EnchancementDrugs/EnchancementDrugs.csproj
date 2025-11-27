@@ -66,18 +66,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PillsPatch.cs" />
+    <Compile Include="CanBeTakenByPatch.cs" />
     <Compile Include="Condition.cs" />
     <Compile Include="Pills\Mentats.cs" />
     <Compile Include="Pills\MoodBooster.cs" />
-    <Compile Include="DbPatch.cs" />
-    <Compile Include="Assets.cs" />
+    <Compile Include="GenerateEffects.cs" />
+    <Compile Include="Defaults.cs" />
+    <Compile Include="Pills\RegenerativeSerum.cs" />
+    <Compile Include="Utility.cs" />
     <Compile Include="Pills\AdvancedRadPill.cs" />
-    <Compile Include="Pills\Sugar.cs" />
+    <Compile Include="Pills\Candy.cs" />
     <Compile Include="Pills\CaffeinePill.cs" />
     <Compile Include="Pills\RadPill.cs" />
     <Compile Include="Pills\ExperimentalPill.cs" />
-    <Compile Include="STRINGS.cs" />
+    <Compile Include="PillBaseConfig.cs" />
     <Compile Include="Pills\Buffout.cs" />
     <Compile Include="Pills\SuperPill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

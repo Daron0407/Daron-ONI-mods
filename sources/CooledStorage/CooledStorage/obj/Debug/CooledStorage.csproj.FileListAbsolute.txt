@@ -10,6 +10,7 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug
 D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.CoreModule.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\UnityEngine.ImageConversionModule.dll
-D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.csproj.CopyComplete
 D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledStorage.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\obj\Debug\CooledSt.0AA2D0F9.Up2Date
+D:\Workspace\GitHub\Daron-ONI-mods\sources\CooledStorage\CooledStorage\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll

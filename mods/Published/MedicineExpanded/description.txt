@@ -10,6 +10,7 @@ This mod introduces a range of new medicines to enhance your duplicants' perform
  [*] [b]Caffeine Pill[/b]: A stimulant that reduces stamina depletion rate, useful when duplicants are feeling sleepy. Note that it may lead to increased stress and reduced calorie intake.
  [*] [b]Buffout / Mentats[/b]: Boosters that enhance strength and science skills (Buffout) or stress reduction and piloting skills (Mentats). Each pill has specific trade-offs, such as increased air consumption or decreased stamina.
  [*] [b]Experimental Pill[/b]: A potent option providing a comprehensive boost to various attributes, including stress reduction, morale, stamina, and radiation resistance. This experimental pill comes with severe drawbacks that must be managed carefully.
+ [*] [b]Regenerative Serum[/b]: Lets your duplicants regenerate light wounds without having to visit triage cots.
 [/list]
 
 Source code on [url=https://github.com/Daron0407/Daron-ONI-mods]github[/url]

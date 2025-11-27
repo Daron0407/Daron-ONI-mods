@@ -5,16 +5,20 @@ namespace EnchancementDrugs
 {
     public class Conditions
     {
-        public static string none = nameof(none);
-        public static string radTreshold = nameof(radTreshold);
-        public static string stressTreshold = nameof(stressTreshold);
-        public static string staminaTreshold = nameof(staminaTreshold);
+        public const string none = nameof(none);
+        public const string radTreshold = nameof(radTreshold);
+        public const string stressTreshold = nameof(stressTreshold);
+        public const string staminaTreshold = nameof(staminaTreshold);
+        public const string healthTreshold = nameof(healthTreshold);
+
+        public const string bionicRestricted = nameof(bionicRestricted);
+        public const string bionicOnly = nameof(bionicOnly);
     }
 
     public class Compare
     {
-        public static readonly bool higher = false;
-        public static readonly bool lower = true;
+        public const bool higher = false;
+        public const bool lower = true;
     }
     public class Condition
     {
@@ -28,67 +32,41 @@ namespace EnchancementDrugs
             this.compareBy = compareBy;
         }
 
-        public bool checkCondition(MedicinalPill pill, GameObject consumer)
+        public bool checkCondition(GameObject consumer)
         {
-            if (conditionType == Conditions.none)
+            bool bionic = consumer.GetAmounts().Get(Db.Get().Amounts.BionicOxygenTank.Id) != null;
+            float radiationBalance = consumer.GetAmounts().Get(Db.Get().Amounts.RadiationBalance.Id).value;
+            float stress = consumer.GetAmounts().Get(Db.Get().Amounts.Stress.Id).value;
+            float health = consumer.GetAmounts().Get(Db.Get().Amounts.HitPoints.Id).value;
+            float stamina = 0f;
+            if(!bionic) 
+                stamina = consumer.GetAmounts().Get(Db.Get().Amounts.Stamina.Id).value;
+            switch (conditionType)
             {
-                return true;
+                case Conditions.radTreshold:
+                    if (compareBy == Compare.lower)
+                        return radiationBalance <= value;
+                    return radiationBalance >= value;
+                case Conditions.stressTreshold:
+                    if (compareBy == Compare.lower)
+                        return stress <= value;
+                    return stress >= value;
+                case Conditions.staminaTreshold:
+                    if (compareBy == Compare.lower)
+                        return stamina <= value;
+                    return stamina >= value;
+                case Conditions.healthTreshold:
+                    if (compareBy == Compare.lower)
+                        return health <= value;
+                    return health >= value;
+                case Conditions.bionicOnly:
+                    return bionic;
+                case Conditions.bionicRestricted:
+                    return !bionic;
+
+                default:
+                    return true;
             }
-            if (conditionType == Conditions.radTreshold)
-            {
-                if (compareBy == Compare.lower)
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.RadiationBalance.Id).value <= value)
-                    {
-                        return true;
-                    }
-                }
-                else
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.RadiationBalance.Id).value >= value)
-                    {
-                        return true;
-                    }
-                }
-                return false;
-            }
-            if (conditionType == Conditions.stressTreshold)
-            {
-                if (compareBy == Compare.lower)
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stress.Id).value <= value)
-                    {
-                        return true;
-                    }
-                }
-                else
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stress.Id).value >= value)
-                    {
-                        return true;
-                    }
-                }
-                return false;
-            }
-            if (conditionType == Conditions.staminaTreshold)
-            {
-                if (compareBy == Compare.lower)
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stamina.Id).value <= value)
-                    {
-                        return true;
-                    }
-                }
-                else
-                {
-                    if (consumer.GetAmounts().Get(Db.Get().Amounts.Stamina.Id).value >= value)
-                    {
-                        return true;
-                    }
-                }
-                return false;
-            }
-            return true;
         }
     }
 }

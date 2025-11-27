@@ -4,80 +4,70 @@ using UnityEngine;
 
 namespace EnchancementDrugs
 {
-    public class MentatsConfig : IEntityConfig
+    public class MentatsConfig : PillBaseConfig
     {
         public const string ID = "Mentats";
-        public static ComplexRecipe recipe;
+        public static string medicineStation = MedicineStations.SelfApplied;
+        public static string requiredTech = "MedicineIV";
+
+        public const string name = "Mentats";
+        public const string description = "Increases mental capacity.";
+        public const string recipeDescription = "A supplement that increases mental capacity";
+
+        public const string effectName = "Insighted";
+        public const string effectTooltip = "Increases science and piloting";
+        public const float durationCycles = Default.pillDuration;
+
         public const string effectId = "Medicine_" + ID;
-        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, MedicineStations.SelfApplied);
-        public static Condition condition;
+        public static MedicineInfo medicineInfo = new MedicineInfo(ID, effectId, MedicineInfo.MedicineType.Booster, medicineStation);
 
-        public GameObject CreatePrefab()
+        public override GameObject CreatePrefab()
         {
-            condition = new Condition(Conditions.none);
-            string name = PILLS.MENTATS.NAME;
-            string desc = PILLS.MENTATS.DESC;
-            string recipeDescr = PILLS.MENTATS.RECIPE.DESC;
-            Kanims.Instantiate();
-            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, desc, 1f, true, Kanims.med_pack, "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
+            GameObject looseEntity = EntityTemplates.CreateLooseEntity(ID, name, description, 1f, true, Kanims.getPillKanimFile(Kanims.Pills.med_pack), "object", Grid.SceneLayer.Front, EntityTemplates.CollisionShape.RECTANGLE, 0.8f, 0.4f, true);
             EntityTemplates.ExtendEntityToMedicine(looseEntity, medicineInfo);
+            GenerateRecipe();
+            return looseEntity;
+        }
 
-
-            ComplexRecipe.RecipeElement[] recipeElementArray1 = new ComplexRecipe.RecipeElement[]
+        public override void GenerateRecipe()
+        {
+            ComplexRecipe.RecipeElement[] inputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement(SimHashes.Lime.CreateTag(), 1f),
                     new ComplexRecipe.RecipeElement(SimHashes.Sucrose.CreateTag(), 1f),
                     new ComplexRecipe.RecipeElement((Tag) SwampLilyFlowerConfig.ID, 1f)
             };
-            ComplexRecipe.RecipeElement[] recipeElementArray2 = new ComplexRecipe.RecipeElement[]
+            ComplexRecipe.RecipeElement[] outputs = new ComplexRecipe.RecipeElement[]
             {
                     new ComplexRecipe.RecipeElement((Tag) ID, 1f)
             };
-            recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", recipeElementArray1, recipeElementArray2), recipeElementArray1, recipeElementArray2)
+            ComplexRecipe recipe = new ComplexRecipe(ComplexRecipeManager.MakeRecipeID("Apothecary", inputs, outputs), inputs, outputs)
             {
-                time = 50f,
-                description = recipeDescr,
+                time = Default.fabricationSpeed,
+                description = recipeDescription,
                 nameDisplay = ComplexRecipe.RecipeNameDisplay.Result,
                 fabricators = new List<Tag>()
                   {
                     (Tag) "Apothecary"
                   },
-                requiredTech = "MedicineIV",
+                requiredTech = requiredTech,
                 sortOrder = 6
             };
-
-            return looseEntity;
         }
 
-        public string[] GetDlcIds()
+        public static Effect GetPillEffect()
         {
-            return DlcManager.AVAILABLE_EXPANSION1_ONLY;
+            float duration = durationCycles * Units.cycles;
+            Effect effect = Utility.MakeEffect(effectId, effectName, effectTooltip, duration);
+            effect.Add(new AttributeModifier(Attributes.stamina, -10f * Units.percentPerCycle, name));
+            effect.Add(new AttributeModifier(Attributes.skills.Science, 8f * Units.points, name));
+            effect.Add(new AttributeModifier(Attributes.skills.Piloting, 8f * Units.points, name));
+            return effect;
         }
 
-        public void OnPrefabInit(GameObject inst)
+        public static bool CheckConditions(GameObject consumer)
         {
-        }
-
-        public void OnSpawn(GameObject inst)
-        { 
-        }
-
-        public class PillEffect
-        {
-            public static string Id = effectId;
-            public Effect effect;
-            public PillEffect() 
-            {
-                string name = PILLS.MENTATS.EFFECT.NAME;
-                string tooltip = PILLS.MENTATS.EFFECT.TOOLTIP;
-                float duration = 1f * Units.cycles;
-
-                effect = new Effect(Id, name, tooltip, duration, true, true, false, null, 0.0f, null);
-                effect.Add(new AttributeModifier(Attributes.stress, 10f * Units.percentPerCycle, name));
-                effect.Add(new AttributeModifier(Attributes.skills.Science, 8f * Units.points, name));
-                effect.Add(new AttributeModifier(Attributes.skills.Piloting, 8f * Units.points, name));
-            }
+            return true;
         }
     }
-
 }
