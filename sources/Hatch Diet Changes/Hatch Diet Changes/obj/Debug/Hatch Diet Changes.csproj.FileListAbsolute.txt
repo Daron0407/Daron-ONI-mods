@@ -33,6 +33,7 @@ D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\UnityEngine.UI.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.AssemblyReference.cache
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CoreCompileInputs.cache
-D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.csproj.CopyComplete
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.dll
 D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Diet Changes.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Hatch Diet Changes\Hatch Diet Changes\obj\Debug\Hatch Di.F4DB7D67.Up2Date
