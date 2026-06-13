@@ -80,3 +80,18 @@ C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Sanishells Clear Water\Sanishells
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.ImageConversionModule.dll
 C:\Users\daron\Documents\GitHub\Daron-ONI-mods\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.UI.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Sanishells Clear Water.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Sanishells Clear Water.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishel.A9DA42ED.Up2Date
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Sanishells Clear Water\Sanishells Clear Water\obj\Debug\Sanishells Clear Water.pdb

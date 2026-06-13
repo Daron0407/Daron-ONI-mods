@@ -3,52 +3,70 @@ using UnityEngine;
 
 namespace Sanishells_Clear_Water
 {
+
+
     [HarmonyPatch(typeof(CrabFreshWaterConfig), nameof(CrabFreshWaterConfig.CreateCrabFreshWater))]
     public class SanishellClearWaterSetup
     {
         public static float cleaningRate = 0.5f;
-        public static SimHashes Consumed = SimHashes.DirtyWater;
-        public static SimHashes Outputed = SimHashes.Water;
-        public static void Postfix(
-            string id,
-            string name,
-            string desc,
-            string anim_file,
-            bool is_baby,
-            string deathDropID,
-            ref GameObject __result)
+        public static float conversionEfficiency = 0.99f;
+        public static void Postfix(bool is_baby, ref GameObject __result)
         {
             if (!is_baby)
             {
                 Storage storage = __result.AddOrGet<Storage>();
-                storage.capacityKg = cleaningRate * 10f;
+                storage.capacityKg = cleaningRate * 20f;
                 storage.SetDefaultStoredItemModifiers(Storage.StandardInsulatedStorage);
-                PassiveElementConsumer passiveElementConsumer = __result.AddOrGet<PassiveElementConsumer>();
-                passiveElementConsumer.elementToConsume = Consumed;
-                passiveElementConsumer.consumptionRate = cleaningRate;
-                passiveElementConsumer.capacityKG = cleaningRate * 10f;
-                passiveElementConsumer.consumptionRadius = (byte)3;
-                passiveElementConsumer.showInStatusPanel = true;
-                passiveElementConsumer.sampleCellOffset = new Vector3(0.0f, 0.0f, 0.0f);
-                passiveElementConsumer.isRequired = false;
-                passiveElementConsumer.storeOnConsume = true;
-                passiveElementConsumer.showDescriptor = false;
+
+                AddFilterProcess(__result, SimHashes.DirtyWater, SimHashes.Water);
+                AddFilterProcess(__result, SimHashes.MurkyBrine, SimHashes.Brine);
+
+
                 __result.AddOrGet<UpdateElementConsumerPosition>();
-                BubbleSpawner bubbleSpawner = __result.AddOrGet<BubbleSpawner>();
-                bubbleSpawner.element = Outputed;
-                bubbleSpawner.emitMass = cleaningRate * 10f; ;
-                bubbleSpawner.emitVariance = 0.5f;
-                bubbleSpawner.initialVelocity = (Vector2)new Vector2f(0, 1);
-                ElementConverter elementConverter = __result.AddOrGet<ElementConverter>();
-                elementConverter.consumedElements = new ElementConverter.ConsumedElement[1]
-                {
-                new ElementConverter.ConsumedElement(Consumed.CreateTag(), cleaningRate)
-                };
-                elementConverter.outputElements = new ElementConverter.OutputElement[1]
-                {
-                new ElementConverter.OutputElement(cleaningRate, Outputed, 0.0f, true, true)
-                };
+
+                ElementDropper elementDropper = __result.AddComponent<ElementDropper>();
+                elementDropper.emitTag = SimHashes.ToxicSand.CreateTag();
+                elementDropper.emitMass = (1f - conversionEfficiency) * 10f;
+                elementDropper.emitOffset = Vector3.zero;
             }
+        }
+
+        private static void AddFilterProcess(GameObject prefab, SimHashes input, SimHashes output)
+        {
+            PassiveElementConsumer consumer = prefab.AddComponent<PassiveElementConsumer>();
+            consumer.elementToConsume = input;
+            consumer.consumptionRate = cleaningRate;
+            consumer.capacityKG = cleaningRate * 10f;
+            consumer.consumptionRadius = 3;
+            consumer.showInStatusPanel = true;
+            consumer.sampleCellOffset = Vector3.zero;
+            consumer.isRequired = false;
+            consumer.storeOnConsume = true;
+            consumer.showDescriptor = false;
+            consumer.showInStatusPanel = false;
+
+
+
+            ElementConverter converter = prefab.AddComponent<ElementConverter>();
+            converter.ShowInUI = true;
+            converter.showDescriptors = true;
+            converter.consumedElements = new ElementConverter.ConsumedElement[]
+            {
+                new ElementConverter.ConsumedElement(input.CreateTag(), cleaningRate)
+            };
+            converter.outputElements = new ElementConverter.OutputElement[]
+            {
+                new ElementConverter.OutputElement(cleaningRate * conversionEfficiency, output, 0.0f, true, true),
+                new ElementConverter.OutputElement(cleaningRate * (1f - conversionEfficiency), SimHashes.ToxicSand, 0.0f, true, true)
+            };
+
+
+            BubbleSpawner bubbleSpawner = prefab.AddComponent<BubbleSpawner>();
+            bubbleSpawner.element = output;
+            bubbleSpawner.emitMass = cleaningRate * 10f;
+            bubbleSpawner.emitVariance = 0.5f;
+            bubbleSpawner.emitOffset = Vector3.zero;
+
         }
     }
 
@@ -57,10 +75,14 @@ namespace Sanishells_Clear_Water
     {
         public static void Postfix(GameObject inst)
         {
-            ElementConsumer component = inst.GetComponent<ElementConsumer>();
-            if (!((Object)component != (Object)null))
-                return;
-            component.EnableConsumption(true);
+            ElementConsumer[] components = inst.GetComponents<ElementConsumer>();
+            foreach (var component in components)
+            {
+                if (component != null)
+                {
+                    component.EnableConsumption(true);
+                }
+            }
         }
     }
 }
