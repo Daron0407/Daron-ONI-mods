@@ -22,7 +22,7 @@ namespace HatchDietChanges
                 float diseasePerKgProduced,
                 ref List<Diet.Info> __result)
             {
-                __result.Add(new Diet.Info(Setup.regulaHatchCarbon(), poopTag, caloriesPerKg, producedConversionRate, diseaseId, diseasePerKgProduced));
+                __result.Add(new Diet.Info(Setup.regularHatchCarbon(), poopTag, caloriesPerKg, producedConversionRate, diseaseId, diseasePerKgProduced));
 
                 foreach (Tuple<Tag, Tag> T in Setup.regularHatchMetals())
                 {
@@ -139,9 +139,15 @@ namespace HatchDietChanges
             {
                 foreach (Diet.Info e in diet_infos)
                 {
-                    if (e.producedElement.ToString() == "Carbon") //Remove Wolframite from stone hatch
+                    if (e.producedElement.ToString() == "Carbon")
+                    {
+                        //Remove Wolframite from stone hatch
                         if (e.consumedTags.Contains(SimHashes.Wolframite.CreateTag()))
                             e.consumedTags.Remove(SimHashes.Wolframite.CreateTag());
+                        //Remove Obsidian from stone hatch
+                        if (e.consumedTags.Contains(SimHashes.Obsidian.CreateTag()))
+                            e.consumedTags.Remove(SimHashes.Obsidian.CreateTag());
+                    }
 
                     if (e.producedConversionRate == TUNING.CREATURES.CONVERSION_EFFICIENCY.BAD_1) //Remove Rust from stone hatch
                     {

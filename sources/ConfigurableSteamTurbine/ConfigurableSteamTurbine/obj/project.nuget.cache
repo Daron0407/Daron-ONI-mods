@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X+OslqTqiyyGB7p8wFjKligEo05iAeqHy8AEynBonWgrhZgG6VqQdiulP7v3Fs9eL5tEuLBs13sdZ1tDTzKSSg==",
+  "dgSpecHash": "d4Ozz62pmTI=",
   "success": false,
   "projectFilePath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
   "expectedPackageFiles": [],
@@ -8,27 +8,23 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Nie można znaleźć pakietu ilmerge. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "message": "Unable to find package ilmerge. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "filePath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "libraryId": "ilmerge",
       "targetGraphs": [
-        ".NETFramework,Version=v4.7.1",
-        ".NETFramework,Version=v4.7.1/win",
-        ".NETFramework,Version=v4.7.1/win-arm64",
-        ".NETFramework,Version=v4.7.1/win-x64",
-        ".NETFramework,Version=v4.7.1/win-x86"
+        ".NETFramework,Version=v4.7.1"
       ]
     },
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Nie można znaleźć pakietu PLib. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "message": "Unable to find package PLib. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
+      "filePath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine.csproj",
       "libraryId": "PLib",
       "targetGraphs": [
-        ".NETFramework,Version=v4.7.1",
-        ".NETFramework,Version=v4.7.1/win",
-        ".NETFramework,Version=v4.7.1/win-arm64",
-        ".NETFramework,Version=v4.7.1/win-x64",
-        ".NETFramework,Version=v4.7.1/win-x86"
+        ".NETFramework,Version=v4.7.1"
       ]
     }
   ]

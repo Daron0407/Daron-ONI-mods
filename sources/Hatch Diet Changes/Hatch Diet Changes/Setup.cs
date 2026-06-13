@@ -3,7 +3,7 @@
 public class Setup
 {
     // Already existing
-    public static HashSet<Tag> regulaHatchCarbon()
+    public static HashSet<Tag> regularHatchCarbon()
     {
         return new HashSet<Tag>() { SimHashes.Regolith.CreateTag(), SimHashes.Salt.CreateTag() };
     }
@@ -23,14 +23,14 @@ public class Setup
             result.Add(new Tuple<Tag, Tag>(SimHashes.Cobalt.CreateTag(), SimHashes.Cobaltite.CreateTag()));
             result.Add(new Tuple<Tag, Tag>(SimHashes.DepletedUranium.CreateTag(), SimHashes.UraniumOre.CreateTag()));
         }
-        if (Game.IsDlcActiveForCurrentSave(DlcManager.DLC2_ID))
-        {
-            result.Add(new Tuple<Tag, Tag>(SimHashes.SolidMercury.CreateTag(), SimHashes.Cinnabar.CreateTag()));
-        }
-        if (Game.IsDlcActiveForCurrentSave(DlcManager.DLC3_ID))
-        {
-            result.Add(new Tuple<Tag, Tag>(SimHashes.Nickel.CreateTag(), SimHashes.NickelOre.CreateTag()));
-        }
+        result.Add(new Tuple<Tag, Tag>(SimHashes.SolidMercury.CreateTag(), SimHashes.Cinnabar.CreateTag()));
+
+        result.Add(new Tuple<Tag, Tag>(SimHashes.Nickel.CreateTag(), SimHashes.NickelOre.CreateTag()));
+
+        result.Add(new Tuple<Tag, Tag>(SimHashes.Zinc.CreateTag(), SimHashes.ZincOre.CreateTag()));
+        result.Add(new Tuple<Tag, Tag>(SimHashes.Lead.CreateTag(), SimHashes.Galena.CreateTag()));
+
+
 
         return result;
     }
@@ -46,9 +46,8 @@ public class Setup
         if (DlcManager.IsExpansion1Active())
         {
             result.Add(SimHashes.Mud.CreateTag());
-            result.Add(SimHashes.ToxicMud.CreateTag());
         }
-        if (Game.IsDlcActiveForCurrentSave(DlcManager.DLC3_ID))
+        if (Game.IsDlcActiveForCurrentSave(DlcManager.DLC3_ID) || true)
         {
             result.Add(SimHashes.Peat.CreateTag());
         }

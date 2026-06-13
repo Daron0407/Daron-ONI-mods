@@ -1,11 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.1": {},
-    ".NETFramework,Version=v4.7.1/win": {},
-    ".NETFramework,Version=v4.7.1/win-arm64": {},
-    ".NETFramework,Version=v4.7.1/win-x64": {},
-    ".NETFramework,Version=v4.7.1/win-x86": {}
+    ".NETFramework,Version=v4.7.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -28,6 +24,7 @@
       "outputPath": "D:\\Workspace\\GitHub\\Daron-ONI-mods\\sources\\ConfigurableSteamTurbine\\ConfigurableSteamTurbine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -46,6 +43,11 @@
         "net471": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,47 +63,25 @@
           }
         }
       }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-arm64": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
-      }
     }
   },
   "logs": [
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Nie można znaleźć pakietu ilmerge. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "message": "Unable to find package ilmerge. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
       "libraryId": "ilmerge",
       "targetGraphs": [
-        ".NETFramework,Version=v4.7.1",
-        ".NETFramework,Version=v4.7.1/win",
-        ".NETFramework,Version=v4.7.1/win-arm64",
-        ".NETFramework,Version=v4.7.1/win-x64",
-        ".NETFramework,Version=v4.7.1/win-x86"
+        ".NETFramework,Version=v4.7.1"
       ]
     },
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Nie można znaleźć pakietu PLib. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "message": "Unable to find package PLib. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
       "libraryId": "PLib",
       "targetGraphs": [
-        ".NETFramework,Version=v4.7.1",
-        ".NETFramework,Version=v4.7.1/win",
-        ".NETFramework,Version=v4.7.1/win-arm64",
-        ".NETFramework,Version=v4.7.1/win-x64",
-        ".NETFramework,Version=v4.7.1/win-x86"
+        ".NETFramework,Version=v4.7.1"
       ]
     }
   ]
