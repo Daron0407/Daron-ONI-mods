@@ -1,0 +1,15 @@
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Slogos Desalinate.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Slogos Desalinate.pdb
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\0Harmony.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Assembly-CSharp.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\UnityEngine.CoreModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\UnityEngine.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Unity.TextMeshPro.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\obj\Debug\Slogos Desalinate.csproj.AssemblyReference.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\obj\Debug\Slogos Desalinate.csproj.CoreCompileInputs.cache
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\obj\Debug\Slogos D.86329EF8.Up2Date
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\obj\Debug\Slogos Desalinate.dll
+D:\Workspace\GitHub\Daron-ONI-mods\sources\Slogos Desalinate\Slogos Desalinate\obj\Debug\Slogos Desalinate.pdb
